@@ -1,0 +1,49 @@
+09/10/2025 16:19:48 => [Debug] Debug started for file: Main
+09/10/2025 16:19:50 => [Info] TEC_SAP_Warranty_v2 execution started
+09/10/2025 16:19:50 => [Info] Initail start : Completed
+09/10/2025 16:19:51 => [Info] Healing agent configuration.
+09/10/2025 16:19:52 => [Info] `Initail End : Completed
+09/10/2025 16:19:52 => [Info] Accass SAP start : Completed
+09/10/2025 16:20:01 => [Info] False
+09/10/2025 16:20:01 => [Info] Access SAP End : Completed
+09/10/2025 16:20:02 => [Info] Start : ZTHSD_OC_GEN_R287
+09/10/2025 16:20:02 => [Debug] Start : Get remark, CODE: ZTHSD_OC_GEN_R287
+09/10/2025 16:20:02 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+09/10/2025 16:20:02 => [Info] END CALL R287
+09/10/2025 16:20:02 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+09/10/2025 16:20:06 => [Info] Delay 3s for loading report...
+09/10/2025 16:20:14 => [Info] R287 Save path: C:\Buffer_uipath\R287Name: R287_2025_09_10.XLSX
+09/10/2025 16:20:17 => [Info] C:\Buffer_uipath\R287\R287_2025_09_10.XLSX, Exist => Delete before download ...
+09/10/2025 16:20:21 => [Info] Killing Excel.exe R287 process ...
+09/10/2025 16:20:23 => [Info] Select path: C:\Buffer_uipath\R287\R287_2025_09_10.XLSX
+09/10/2025 16:20:23 => [Info] Audit: Using Excel File: C:\Buffer_uipath\R287\R287_2025_09_10.XLSX
+09/10/2025 16:20:30 => [Info] Filtering [BillDoc != '5152xxx]'
+09/10/2025 16:20:30 => [Info] Min OrdDate: 22.04.2025
+09/10/2025 16:20:30 => [Info] R287 Load report done...
+09/10/2025 16:20:30 => [Info] Start : ZTHSD_OC_GEN_R047
+09/10/2025 16:20:30 => [Debug] Start : Get remark, CODE: ZTHSD_OC_GEN_R047
+09/10/2025 16:20:30 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+09/10/2025 16:20:31 => [Info] END CALL R047
+09/10/2025 16:20:31 => [Info] R047 Path: C:\Buffer_uipath\R047
+09/10/2025 16:20:31 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+09/10/2025 16:21:02 => [Info] File name: R047_2025_09_10.XLSX
+09/10/2025 16:21:02 => [Info] C:\Buffer_uipath\R047/R047_2025_09_10.XLSX, Exist => Delete before download ...
+09/10/2025 16:21:05 => [Info] Killing Excel.exe R047 process ...
+09/10/2025 16:21:08 => [Info] C:\Buffer_uipath\R047\SAP_WARRANTY\Bill_split\2025_09_10  |  Files in folder already exist => Delete first...
+09/10/2025 16:21:08 => [Debug] [SAP] Deleteing...C:\Buffer_uipath\R047\SAP_WARRANTY\Bill_split\2025_09_10\BillNo_5151633823_1000_1100.xlsx
+09/10/2025 16:21:08 => [Debug] [SAP] Deleteing...C:\Buffer_uipath\R047\SAP_WARRANTY\Bill_split\2025_09_10\BillNo_5151633825_1000_1100.xlsx
+09/10/2025 16:21:08 => [Debug] [SAP] Deleteing...C:\Buffer_uipath\R047\SAP_WARRANTY\Bill_split\2025_09_10\BillNo_5151633838_1130_1330.xlsx
+09/10/2025 16:21:08 => [Debug] [SAP] Deleteing...C:\Buffer_uipath\R047\SAP_WARRANTY\Bill_split\2025_09_10\BillNo_5151633839_1130_1330.xlsx
+09/10/2025 16:21:08 => [Info] C:\Buffer_uipath\R047\COA\Bill_split\2025_09_10  |  Files in folder already exist => Delete first...
+09/10/2025 16:21:08 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_09_10\BillNo_5151633831_1000_1100.xlsx
+09/10/2025 16:21:08 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_09_10\BillNo_5151633832_1000_1100.xlsx
+09/10/2025 16:21:08 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_09_10\BillNo_5151633833_1000_1100.xlsx
+09/10/2025 16:21:08 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_09_10\BillNo_5151633841_1130_1330.xlsx
+09/10/2025 16:21:08 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_09_10\BillNo_5151633843_1130_1330.xlsx
+09/10/2025 16:21:08 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_09_10\BillNo_5151633844_1130_1330.xlsx
+09/10/2025 16:21:08 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_09_10\BillNo_5151633845_1130_1330.xlsx
+09/10/2025 16:21:08 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_09_10\BillNo_5151633846_1130_1330.xlsx
+09/10/2025 16:21:08 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_09_10\BillNo_5151633847_1130_1330.xlsx
+09/10/2025 16:21:08 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_09_10\BillNo_5151633848_1130_1330.xlsx
+09/10/2025 16:21:08 => [Info] Output at C:\py_lab\py_execute\output_log_10.09.2025.txt
+09/10/2025 16:21:08 => [Info] Running python...At C:\py_lab\py_execute\py_split_warranty.py

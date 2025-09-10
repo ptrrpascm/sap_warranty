@@ -1,0 +1,15 @@
+{
+  "Value": {
+    "Main.xaml": [
+      {
+        "IsEnabled": true,
+        "Annotation": null,
+        "Id": "a0d74a9d-dc6d-4b66-8d83-f61f7373cedf",
+        "ActivityIdRef": "LogMessage_37",
+        "ActivityId": "1.1300",
+        "ActivityName": "Log Message",
+        "IsTransient": false
+      }
+    ]
+  }
+}
