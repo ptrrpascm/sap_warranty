@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryScreenData ContentHash="n89BD-h2vEiEoJ26-EOhig" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryScreenData ContentHash="PTDzNzpA9UmQUuVWzT63LQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryScreenData.Data>
-    <TargetApp x:Key="TargetApp" Area="16, 46, 1207, 600" FilePath="C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAEnSURBVDhPYxgFgxTwSqlwOlav1gdiIwqxKsxAEOcrEP8jE/91qF59Qz+q1pEaBoIMO6vuk+0BNmzxslUtC1ZtmjN756Wfs3Zc+kcI1yw69M+zfi2yYRfUPNM9WNi5WcEGvv/y88fbT99/vPzw7e/L99/+4cPnbz/7lzlh8z+HyuUwAx9pBxY5MbGyM4MNAwGggf+ABv4FYhCNE9968uZf/pTN/+zKlsBc9twgpsEaagwCvPn0Y9Xe4+d3bTp+8zcQ/8OF86ZsgRn2x6Fq1QWdsHIbqBGoILewhMHA3scYqPgrSAMubF++DGyYY9XqE+peGc6MTCyMUCMwAZGx/BeIzwMNc2Lh4GaBasUOgAaqABVvBuKdePA6vbByC0ZmPC4bBYMRMDAAAEYJhUSD9JkpAAAAAElFTkSuQmCC" Selector="&lt;wnd app='saplogon.exe' cls='#32770' title='Save Print Output As' idx='*' /&gt;" Version="V2">
-      <imageRef attrName="InformativeScreenshot" originalValue="e406a5af0edc98008b61855b3138123c.png" xmlns="">0FVtmgwt2jUGLz_XYLP1e-w</imageRef>
+    <TargetApp x:Key="TargetApp" Area="102, 81, 965, 480" FilePath="C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACmSURBVDhPYxgFEOBUs8YNiAvIwOEwAxYA8X8S8VPH6jXqDO+//NDJnblvY8KEnf/xYb+WjcianwA1q4Ftf//l539C+NiVh/89apbDND92rF6tCtYMAtg0IOOjVx78d6tcAtP8CKhZBaoVAoCKgjpWHDlQOnv3f2zYrWoZTPNDoGZlqDZUAJQkFIgPgH5WhCrHBEAFTUB8Hgc+7FizRgGqdBRgAAYGAAYOBxPO3n6VAAAAAElFTkSuQmCC" Selector="&lt;wnd app='saplogon.exe' cls='#32770' title='Save Print Output As' idx='*' /&gt;" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="b0e82278008f44ea3e9f26f758db1a0a.png" xmlns="">0kKc2DIWrXUK_6NWyQFBxyg</imageRef>
     </TargetApp>
   </ObjectRepositoryScreenData.Data>
 </ObjectRepositoryScreenData>
