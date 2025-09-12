@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryScreenData ContentHash="PTDzNzpA9UmQUuVWzT63LQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryScreenData ContentHash="StozOjmmikmNwno5jnxy7Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryScreenData.Data>
-    <TargetApp x:Key="TargetApp" Area="102, 81, 965, 480" FilePath="C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACmSURBVDhPYxgFEOBUs8YNiAvIwOEwAxYA8X8S8VPH6jXqDO+//NDJnblvY8KEnf/xYb+WjcianwA1q4Ftf//l539C+NiVh/89apbDND92rF6tCtYMAtg0IOOjVx78d6tcAtP8CKhZBaoVAoCKgjpWHDlQOnv3f2zYrWoZTPNDoGZlqDZUAJQkFIgPgH5WhCrHBEAFTUB8Hgc+7FizRgGqdBRgAAYGAAYOBxPO3n6VAAAAAElFTkSuQmCC" Selector="&lt;wnd app='saplogon.exe' cls='#32770' title='Save Print Output As' idx='*' /&gt;" Version="V2">
-      <imageRef attrName="InformativeScreenshot" originalValue="b0e82278008f44ea3e9f26f758db1a0a.png" xmlns="">0kKc2DIWrXUK_6NWyQFBxyg</imageRef>
+    <TargetApp x:Key="TargetApp" Area="195, 91, 965, 480" FilePath="C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFASURBVFhHYxgFo2AUjIJBAxxrVls61ay5T2dcC7Ue7AAnoMB/emHHmjWz7KtXMkGtp68DgJbPsCtfzQi1GgLo5QCg5dMcy1cgLP+/QzgChA8scW1unlD+v7mfMlzVU//fsWoVdsur10yxq1iF6vP/O0X+Uwt/2SL1P6224r99+XJslk+yqkDyOQxgM4gc/GWL9P+kiuL/NkULgJatRrd8gm3xEkzLQQCbYaTiz0DLE8txWF6zps+sBC3YkQE2A0nBnzdL/08oL/1vU4zV8h6oNbgB0JDFIPxojcq+7bMd/2+f7UASTqgox2559eouqBXEAZui+S52pUv+25UsJgnbly/DYvmaDqixxAOgIVQpB4DB3gY1kjRApYKoGWoc6YBSBwB93gg1ijwAdIAm0KD5ZOJcqDGjYBSMglFAImBgAAAGHG0I3oyiGgAAAABJRU5ErkJggg==" Selector="&lt;wnd app='saplogon.exe' cls='#32770' title='Save Print Output As' /&gt;" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="4b00e67195bf5fa80692067e1a2ae88f.png" xmlns="">0FEAR8KsmCkW4nEI08nCwhw</imageRef>
     </TargetApp>
   </ObjectRepositoryScreenData.Data>
 </ObjectRepositoryScreenData>
