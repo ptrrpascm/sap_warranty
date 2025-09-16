@@ -7,6 +7,7 @@
     "UiPath.Excel.Activities": "[2.23.4]",
     "UiPath.IntegrationService.Activities": "[1.17.0]",
     "UiPath.Mail.Activities": "[1.23.1]",
+    "UiPath.PDF.Activities": "[3.24.0]",
     "UiPath.Python.Activities": "[2.0.0-preview]",
     "UiPath.System.Activities": "[24.10.0]",
     "UiPath.Testing.Activities": "[24.10.0]",

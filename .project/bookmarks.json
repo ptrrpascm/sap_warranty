@@ -6,7 +6,7 @@
         "Annotation": null,
         "Id": "a0d74a9d-dc6d-4b66-8d83-f61f7373cedf",
         "ActivityIdRef": "LogMessage_37",
-        "ActivityId": null,
+        "ActivityId": "1.3513",
         "ActivityName": "Log Message",
         "IsTransient": false
       }
