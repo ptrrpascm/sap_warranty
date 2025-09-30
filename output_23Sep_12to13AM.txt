@@ -1,0 +1,58 @@
+09/23/2025 13:03:05 => [Debug] Debug started for file: Main
+09/23/2025 13:03:22 => [Info] TEC_SAP_Warranty_v2 execution started
+09/23/2025 13:03:22 => [Info] Initail start : Completed
+09/23/2025 13:03:24 => [Info] `Initail End : Completed
+09/23/2025 13:03:25 => [Info] Accass SAP start : Completed
+09/23/2025 13:03:25 => [Info] Healing agent configuration.
+09/23/2025 13:03:33 => [Info] False
+09/23/2025 13:03:33 => [Info] Access SAP End : Completed
+09/23/2025 13:03:34 => [Info] Start : ZTHSD_OC_GEN_R287
+09/23/2025 13:03:34 => [Debug] Start : Get remark, CODE: ZTHSD_OC_GEN_R287
+09/23/2025 13:03:34 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+09/23/2025 13:03:34 => [Info] END CALL R287
+09/23/2025 13:03:34 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+09/23/2025 13:03:38 => [Info] Delay 3s for loading report...
+09/23/2025 13:03:46 => [Info] R287 Save path: C:\Buffer_uipath\R287Name: R287_2025_09_23.XLSX
+09/23/2025 13:03:49 => [Info] C:\Buffer_uipath\R287\R287_2025_09_23.XLSX, Exist => Delete before download ...
+09/23/2025 13:03:54 => [Info] Killing Excel.exe R287 process ...
+09/23/2025 13:03:56 => [Info] Select path: C:\Buffer_uipath\R287\R287_2025_09_23.XLSX
+09/23/2025 13:03:56 => [Info] Audit: Using Excel File: C:\Buffer_uipath\R287\R287_2025_09_23.XLSX
+09/23/2025 13:04:03 => [Info] Filtering [BillDoc != '5152xxx]'
+09/23/2025 13:04:03 => [Info] Min OrdDate: 21.02.2025
+09/23/2025 13:04:03 => [Info] R287 Load report done...
+09/23/2025 13:04:03 => [Info] Start : ZTHSD_OC_GEN_R047
+09/23/2025 13:04:03 => [Debug] Start : Get remark, CODE: ZTHSD_OC_GEN_R047
+09/23/2025 13:04:03 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+09/23/2025 13:04:04 => [Info] END CALL R047
+09/23/2025 13:04:04 => [Info] R047 Path: C:\Buffer_uipath\R047
+09/23/2025 13:04:04 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+09/23/2025 13:04:49 => [Info] File name: R047_2025_09_23.XLSX
+09/23/2025 13:04:49 => [Info] C:\Buffer_uipath\R047/R047_2025_09_23.XLSX, Exist => Delete before download ...
+09/23/2025 13:04:53 => [Info] Killing Excel.exe R047 process ...
+09/23/2025 13:04:55 => [Info] C:\Buffer_uipath\R047\COA\Bill_split\2025_09_23  |  Files in folder already exist => Delete first...
+09/23/2025 13:04:55 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_09_23\BillNo_5151634896_1200_1300.xlsx
+09/23/2025 13:04:55 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_09_23\BillNo_5151634901_1200_1300.xlsx
+09/23/2025 13:04:55 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_09_23\BillNo_5151634902_1200_1300.xlsx
+09/23/2025 13:05:00 => [Info] Output at C:\py_lab\py_execute\output_log_23.09.2025.txt
+09/23/2025 13:05:00 => [Info] Running python...At C:\py_lab\py_execute\py_split_warranty.py
+09/23/2025 13:05:02 => [Info] Delay 2s ...
+CALL Next T-Code R319
+09/23/2025 13:05:02 => [Debug] cant detect SAP dl folder
+09/23/2025 13:05:03 => [Info] Continue into C:\Buffer_uipath\R047\SAP_WARRANTY\Bill_split\2025_09_23...
+09/23/2025 13:05:04 => [Info] Job complete (❁´◡`❁)
+Closing... saplogon.exe
+09/23/2025 13:05:04 => [Info] COA Module start ... ╰(*°▽°*)╯
+09/23/2025 13:05:04 => [Debug] New branch SCM ADMIN 03
+09/23/2025 13:05:04 => [Info] File count = 3
+09/23/2025 13:05:04 => [Info] Del... D:\\SharePoint\\DKSH\\SCM RPA - TEC\\SAP_COA\\COA\\2025_09_23\BillNo_5151634896_1200_1300.pdf
+09/23/2025 13:05:04 => [Info] Del... D:\\SharePoint\\DKSH\\SCM RPA - TEC\\SAP_COA\\COA\\2025_09_23\BillNo_5151634901_1200_1300.pdf
+09/23/2025 13:05:04 => [Info] Del... D:\\SharePoint\\DKSH\\SCM RPA - TEC\\SAP_COA\\COA\\2025_09_23\BillNo_5151634902_1200_1300.pdf
+09/23/2025 13:05:04 => [Debug] Audit: Using Web App. Browser: Chrome URL: https://resourcecenter.biomerieux.com/
+09/23/2025 13:05:15 => [Info] LOGIN Already
+09/23/2025 13:05:15 => [Debug] isLogin == True
+09/23/2025 13:05:15 => [Info] found Search page ╰(*°▽°*)╯
+09/23/2025 13:05:17 => [Info] END PROCESS - Out of web scope
+09/23/2025 13:05:17 => [Info] READY !
+09/23/2025 13:05:17 => [Info] \output\2025_09_23\ => Exist!
+09/23/2025 13:05:17 => [Debug] Audit: Using Web App. Browser: Chrome URL: https://resourcecenter.biomerieux.com/search/eifu
+09/23/2025 13:05:18 => [Info] TEC_SAP_Warranty_v2 execution ended in: 00:01:55

@@ -1,0 +1,150 @@
+09/15/2025 15:22:22 => [Debug] Debug started for file: Main
+09/15/2025 15:22:36 => [Info] TEC_SAP_Warranty_v2 execution started
+09/15/2025 15:22:36 => [Info] Initail start : Completed
+09/15/2025 15:22:39 => [Info] `Initail End : Completed
+09/15/2025 15:22:39 => [Info] Accass SAP start : Completed
+09/15/2025 15:22:41 => [Info] Healing agent configuration.
+09/15/2025 15:22:48 => [Info] False
+09/15/2025 15:22:48 => [Info] Access SAP End : Completed
+09/15/2025 15:22:49 => [Info] Start : ZTHSD_OC_GEN_R287
+09/15/2025 15:22:49 => [Debug] Start : Get remark, CODE: ZTHSD_OC_GEN_R287
+09/15/2025 15:22:49 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+09/15/2025 15:22:50 => [Info] END CALL R287
+09/15/2025 15:22:50 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+09/15/2025 15:22:53 => [Info] Delay 3s for loading report...
+09/15/2025 15:23:02 => [Info] R287 Save path: C:\Buffer_uipath\R287Name: R287_2025_09_15.XLSX
+09/15/2025 15:23:04 => [Info] C:\Buffer_uipath\R287\R287_2025_09_15.XLSX, Exist => Delete before download ...
+09/15/2025 15:23:09 => [Info] Killing Excel.exe R287 process ...
+09/15/2025 15:23:11 => [Info] Select path: C:\Buffer_uipath\R287\R287_2025_09_15.XLSX
+09/15/2025 15:23:11 => [Info] Audit: Using Excel File: C:\Buffer_uipath\R287\R287_2025_09_15.XLSX
+09/15/2025 15:23:19 => [Info] Filtering [BillDoc != '5152xxx]'
+09/15/2025 15:23:19 => [Info] Min OrdDate: 13.12.2024
+09/15/2025 15:23:19 => [Info] R287 Load report done...
+09/15/2025 15:23:19 => [Info] Start : ZTHSD_OC_GEN_R047
+09/15/2025 15:23:19 => [Debug] Start : Get remark, CODE: ZTHSD_OC_GEN_R047
+09/15/2025 15:23:19 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+09/15/2025 15:23:20 => [Info] END CALL R047
+09/15/2025 15:23:20 => [Info] R047 Path: C:\Buffer_uipath\R047
+09/15/2025 15:23:20 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+09/15/2025 15:24:16 => [Info] File name: R047_2025_09_15.XLSX
+09/15/2025 15:24:16 => [Info] C:\Buffer_uipath\R047/R047_2025_09_15.XLSX, Exist => Delete before download ...
+09/15/2025 15:24:20 => [Info] Killing Excel.exe R047 process ...
+09/15/2025 15:24:22 => [Info] C:\Buffer_uipath\R047\SAP_WARRANTY\Bill_split\2025_09_15  |  Files in folder already exist => Delete first...
+09/15/2025 15:24:22 => [Debug] [SAP] Deleteing...C:\Buffer_uipath\R047\SAP_WARRANTY\Bill_split\2025_09_15\BillNo_5151634155_1100_1300.xlsx
+09/15/2025 15:24:22 => [Debug] [SAP] Deleteing...C:\Buffer_uipath\R047\SAP_WARRANTY\Bill_split\2025_09_15\BillNo_5151634156_1100_1300.xlsx
+09/15/2025 15:24:22 => [Debug] [SAP] Deleteing...C:\Buffer_uipath\R047\SAP_WARRANTY\Bill_split\2025_09_15\BillNo_5151634157_1100_1300.xlsx
+09/15/2025 15:24:22 => [Debug] [SAP] Deleteing...C:\Buffer_uipath\R047\SAP_WARRANTY\Bill_split\2025_09_15\BillNo_5151634176_1100_1300.xlsx
+09/15/2025 15:24:22 => [Info] C:\Buffer_uipath\R047\COA\Bill_split\2025_09_15  |  Files in folder already exist => Delete first...
+09/15/2025 15:24:22 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_09_15\BillNo_5151634159_1100_1300.xlsx
+09/15/2025 15:24:22 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_09_15\BillNo_5151634160_1100_1300.xlsx
+09/15/2025 15:24:22 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_09_15\BillNo_5151634161_1100_1300.xlsx
+09/15/2025 15:24:22 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_09_15\BillNo_5151634163_1100_1300.xlsx
+09/15/2025 15:24:22 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_09_15\BillNo_5151634165_1100_1300.xlsx
+09/15/2025 15:24:22 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_09_15\BillNo_5151634167_1100_1300.xlsx
+09/15/2025 15:24:22 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_09_15\BillNo_5151634169_1100_1300.xlsx
+09/15/2025 15:24:22 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_09_15\BillNo_5151634178_1100_1300.xlsx
+09/15/2025 15:24:22 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_09_15\BillNo_5151634180_1100_1300.xlsx
+09/15/2025 15:24:30 => [Info] Output at C:\py_lab\py_execute\output_log_15.09.2025.txt
+09/15/2025 15:24:30 => [Info] Running python...At C:\py_lab\py_execute\py_split_warranty.py
+09/15/2025 15:24:32 => [Info] Delay 2s ...
+CALL Next T-Code R319
+09/15/2025 15:24:33 => [Info] Continue into C:\Buffer_uipath\R047\SAP_WARRANTY\Bill_split\2025_09_15...
+09/15/2025 15:24:33 => [Info] Start : ZTHSD_OC_GEN_R319
+09/15/2025 15:24:33 => [Debug] Start : Get remark, CODE: ZTHSD_OC_GEN_R319
+09/15/2025 15:24:33 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+09/15/2025 15:24:33 => [Info] END Call R319
+09/15/2025 15:24:33 => [Info] START File => BillNo_5151634182_1300_1630.xlsx
+09/15/2025 15:24:34 => [Debug] 5151634182
+09/15/2025 15:24:34 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+09/15/2025 15:24:40 => [Info] Not found mat => Robot key... START
+09/15/2025 15:24:40 => [Debug] 5072299536 | 5151634182| 110753552
+09/15/2025 15:24:40 => [Info] Data to be filled | 110753552 | 000020240000017352
+09/15/2025 15:24:40 => [Info] Warranty <= 1
+09/15/2025 15:24:40 => [Info] Unit = 'ปี'
+09/15/2025 15:24:43 => [Debug] SN detect =000020240000017352
+09/15/2025 15:24:47 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+09/15/2025 15:24:54 => [Debug] -
+09/15/2025 15:25:00 => [Info] Start : ZTHSD_OC_GEN_R319
+09/15/2025 15:25:00 => [Debug] Start : Get remark, CODE: ZTHSD_OC_GEN_R319
+09/15/2025 15:25:00 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+09/15/2025 15:25:01 => [Info] END Call R319
+09/15/2025 15:25:01 => [Info] START File => BillNo_5151634183_1300_1630.xlsx
+09/15/2025 15:25:01 => [Debug] 5151634183
+09/15/2025 15:25:01 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+09/15/2025 15:25:07 => [Info] Not found mat => Robot key... START
+09/15/2025 15:25:07 => [Debug] 5072298382 | 5151634183| 111152274
+09/15/2025 15:25:07 => [Info] Data to be filled | 111152274 | 000000000046720593
+09/15/2025 15:25:07 => [Info] Warranty <= 1
+09/15/2025 15:25:07 => [Info] Unit = 'ปี'
+09/15/2025 15:25:10 => [Debug] SN detect =000000000046720593
+09/15/2025 15:25:14 => [Debug] 5072298382 | 5151634183| 111152273
+09/15/2025 15:25:14 => [Info] Data to be filled | 111152273 | 000000000046920038
+09/15/2025 15:25:14 => [Info] Warranty <= 1
+09/15/2025 15:25:14 => [Info] Unit = 'ปี'
+09/15/2025 15:25:17 => [Debug] SN detect =000000000046920038
+09/15/2025 15:25:21 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+09/15/2025 15:25:28 => [Debug] -
+09/15/2025 15:25:34 => [Info] Start : ZTHSD_OC_GEN_R319
+09/15/2025 15:25:34 => [Debug] Start : Get remark, CODE: ZTHSD_OC_GEN_R319
+09/15/2025 15:25:34 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+09/15/2025 15:25:35 => [Info] END Call R319
+09/15/2025 15:25:35 => [Info] START File => BillNo_5151634219_1300_1630.xlsx
+09/15/2025 15:25:35 => [Debug] 5151634219
+09/15/2025 15:25:35 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+09/15/2025 15:25:40 => [Info] Mat already exist by 1st row => Skip this bill
+09/15/2025 15:25:40 => [Info] Start : ZTHSD_OC_GEN_R319
+09/15/2025 15:25:40 => [Debug] Start : Get remark, CODE: ZTHSD_OC_GEN_R319
+09/15/2025 15:25:40 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+09/15/2025 15:25:41 => [Info] END Call R319
+09/15/2025 15:25:41 => [Info] START File => BillNo_5151634221_1300_1630.xlsx
+09/15/2025 15:25:41 => [Debug] 5151634221
+09/15/2025 15:25:41 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+09/15/2025 15:25:47 => [Info] Not found mat => Robot key... START
+09/15/2025 15:25:47 => [Debug] 5072303953 | 5151634221| 110752551
+09/15/2025 15:25:47 => [Info] Data to be filled | 110752551 | SWB3146115857
+09/15/2025 15:25:47 => [Info] Warranty <= 1
+09/15/2025 15:25:47 => [Info] Unit = 'ปี'
+09/15/2025 15:25:50 => [Debug] SN detect =SWB3146115857
+09/15/2025 15:25:54 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+09/15/2025 15:26:01 => [Debug] -
+09/15/2025 15:26:07 => [Info] Start : ZTHSD_OC_GEN_R319
+09/15/2025 15:26:07 => [Debug] Start : Get remark, CODE: ZTHSD_OC_GEN_R319
+09/15/2025 15:26:07 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+09/15/2025 15:26:07 => [Info] END Call R319
+09/15/2025 15:26:07 => [Info] START File => BillNo_5151634222_1300_1630.xlsx
+09/15/2025 15:26:07 => [Debug] 5151634222
+09/15/2025 15:26:07 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+09/15/2025 15:26:13 => [Info] Not found mat => Robot key... START
+09/15/2025 15:26:13 => [Debug] 5072303918 | 5151634222| 110957575
+09/15/2025 15:26:13 => [Info] Data to be filled | 110957575 | TH171134
+09/15/2025 15:26:13 => [Info] Warranty <= 1
+09/15/2025 15:26:13 => [Info] Unit = 'ปี'
+09/15/2025 15:26:17 => [Debug] SN detect =TH171134
+09/15/2025 15:26:20 => [Debug] 5072303918 | 5151634222| 110957575
+09/15/2025 15:26:20 => [Info] Data to be filled | 110957575 | TJ171135
+09/15/2025 15:26:20 => [Info] Warranty <= 1
+09/15/2025 15:26:20 => [Info] Unit = 'ปี'
+09/15/2025 15:26:24 => [Debug] SN detect =TJ171135
+09/15/2025 15:26:27 => [Debug] 5072303918 | 5151634222| 110957576
+09/15/2025 15:26:27 => [Info] Data to be filled | 110957576 |
+09/15/2025 15:26:27 => [Info] Warranty <= 1
+09/15/2025 15:26:27 => [Info] Unit = 'ปี'
+09/15/2025 15:26:31 => [Debug] SN detect =
+09/15/2025 15:26:34 => [Debug] 5072303918 | 5151634222| 110957576
+09/15/2025 15:26:34 => [Info] Data to be filled | 110957576 |
+09/15/2025 15:26:34 => [Info] Warranty <= 1
+09/15/2025 15:26:34 => [Info] Unit = 'ปี'
+09/15/2025 15:26:37 => [Debug] SN detect =
+09/15/2025 15:26:41 => [Debug] 5072303918 | 5151634222| 110957576
+09/15/2025 15:26:41 => [Info] Data to be filled | 110957576 |
+09/15/2025 15:26:41 => [Info] Warranty <= 1
+09/15/2025 15:26:41 => [Info] Unit = 'ปี'
+09/15/2025 15:26:44 => [Debug] SN detect =
+09/15/2025 15:26:47 => [Debug] 5072303918 | 5151634222| 110957575
+09/15/2025 15:26:47 => [Info] Data to be filled | 110957575 | TH171133
+09/15/2025 15:26:47 => [Info] Warranty <= 1
+09/15/2025 15:26:47 => [Info] Unit = 'ปี'
+09/15/2025 15:26:51 => [Debug] SN detect =TH171133
+09/15/2025 15:26:54 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+09/15/2025 15:27:01 => [Debug] -
+09/15/2025 15:27:07 => [Info] TEC_SAP_Warranty_v2 execution ended in: 00:04:31
