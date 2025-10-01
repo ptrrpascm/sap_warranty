@@ -1,91 +1,470 @@
-09/15/2025 11:06:48 => [Debug] Debug started for file: Main
-09/15/2025 11:06:50 => [Info] TEC_SAP_Warranty_v2 execution started
-09/15/2025 11:06:50 => [Info] Initail start : Completed
-09/15/2025 11:06:51 => [Info] Healing agent configuration.
-09/15/2025 11:06:52 => [Info] `Initail End : Completed
-09/15/2025 11:06:52 => [Info] Accass SAP start : Completed
-09/15/2025 11:07:00 => [Info] False
-09/15/2025 11:07:00 => [Info] Access SAP End : Completed
-09/15/2025 11:07:02 => [Info] Continue into C:\Buffer_uipath\R047\SAP_WARRANTY\Bill_split\2025_09_15...
-09/15/2025 11:07:02 => [Info] Start : ZTHSD_OC_GEN_R319
-09/15/2025 11:07:02 => [Debug] Start : Get remark, CODE: ZTHSD_OC_GEN_R319
-09/15/2025 11:07:02 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
-09/15/2025 11:07:03 => [Info] END Call R319
-09/15/2025 11:07:03 => [Info] START File => BillNo_5151634129_0700_1100.xlsx
-09/15/2025 11:07:04 => [Debug] 5151634129
-09/15/2025 11:07:04 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
-09/15/2025 11:07:10 => [Info] Not found mat => Robot key... START
-09/15/2025 11:07:10 => [Debug] 5072303820 | 5151634129| 110957578
-09/15/2025 11:07:10 => [Info] Data to be filled | 110957578 |
-09/15/2025 11:07:10 => [Info] Warranty <= 1
-09/15/2025 11:07:10 => [Info] Unit = 'ปี'
-09/15/2025 11:07:13 => [Debug] SN detect =
-09/15/2025 11:07:16 => [Debug] 5072303820 | 5151634129| 110957574
-09/15/2025 11:07:16 => [Info] Data to be filled | 110957574 | QJ582438
-09/15/2025 11:07:16 => [Info] Warranty <= 1
-09/15/2025 11:07:16 => [Info] Unit = 'ปี'
-09/15/2025 11:07:20 => [Debug] SN detect =QJ582438
-09/15/2025 11:07:23 => [Debug] 5072303820 | 5151634129| 110511882
-09/15/2025 11:07:23 => [Info] Data to be filled | 110511882 |
-09/15/2025 11:07:24 => [Info] Warranty <= 1
-09/15/2025 11:07:24 => [Info] Unit = 'ปี'
-09/15/2025 11:07:27 => [Debug] SN detect =
-09/15/2025 11:07:30 => [Debug] 5072303820 | 5151634129| 110957574
-09/15/2025 11:07:30 => [Info] Data to be filled | 110957574 | QJ582439
-09/15/2025 11:07:30 => [Info] Warranty <= 1
-09/15/2025 11:07:30 => [Info] Unit = 'ปี'
-09/15/2025 11:07:34 => [Debug] SN detect =QJ582439
-09/15/2025 11:07:37 => [Debug] 5072303820 | 5151634129| 110957575
-09/15/2025 11:07:37 => [Info] Data to be filled | 110957575 | TH111154
-09/15/2025 11:07:37 => [Info] Warranty <= 1
-09/15/2025 11:07:37 => [Info] Unit = 'ปี'
-09/15/2025 11:07:41 => [Debug] SN detect =TH111154
-09/15/2025 11:07:44 => [Debug] 5072303820 | 5151634129| 110957575
-09/15/2025 11:07:44 => [Info] Data to be filled | 110957575 | TH171132
-09/15/2025 11:07:44 => [Info] Warranty <= 1
-09/15/2025 11:07:44 => [Info] Unit = 'ปี'
-09/15/2025 11:07:47 => [Debug] SN detect =TH171132
-09/15/2025 11:07:51 => [Debug] 5072303820 | 5151634129| 110739260
-09/15/2025 11:07:51 => [Info] Data to be filled | 110739260 |
-09/15/2025 11:07:51 => [Info] Warranty <= 1
-09/15/2025 11:07:51 => [Info] Unit = 'ปี'
-09/15/2025 11:07:54 => [Debug] SN detect =
-09/15/2025 11:07:58 => [Debug] 5072303820 | 5151634129| 110957572
-09/15/2025 11:07:58 => [Info] Data to be filled | 110957572 | QK595927&QK595928
-09/15/2025 11:07:58 => [Info] Warranty <= 1
-09/15/2025 11:07:58 => [Info] Unit = 'ปี'
-09/15/2025 11:07:58 => [Info] SN not Empty And contain 2 mat => Exceeded length SKIP!
-Write log to excel
-09/15/2025 11:07:58 => [Info] JOB_Date,Sales Ord.,BillingNo.,Material No.,Serial No.,Note,next_action
-22/08/2025,5072299284,5151632425,110879376,BIODB19137&BIODB19275,"SN Contain 2 MAT inline, Exceed range",manual
-22/08/2025,5072301949,5151632613,111001964,000000000086071428,Year != 1 year it's 2 ปี,-
-15/09/2025,5072303820,5151634129,110957572,QK595927&QK595928,"SN Contain 2 MAT inline, Exceed range",Manual
-15/09/2025,5072303820,5151634129,110957572,QK595927&QK595928,"SN Contain 2 MAT inline, Exceed range",Manual
-09/15/2025 11:07:58 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
-09/15/2025 11:08:05 => [Debug] -
-09/15/2025 11:08:12 => [Info] Start : ZTHSD_OC_GEN_R319
-09/15/2025 11:08:12 => [Debug] Start : Get remark, CODE: ZTHSD_OC_GEN_R319
-09/15/2025 11:08:12 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
-09/15/2025 11:08:13 => [Info] END Call R319
-09/15/2025 11:08:13 => [Info] START File => BillNo_5151634131_0700_1100.xlsx
-09/15/2025 11:08:13 => [Debug] 5151634131
-09/15/2025 11:08:13 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
-09/15/2025 11:08:19 => [Info] Not found mat => Robot key... START
-09/15/2025 11:08:19 => [Debug] 5072297226 | 5151634131| 110752559
-09/15/2025 11:08:19 => [Info] Data to be filled | 110752559 | SWB0045805645
-09/15/2025 11:08:19 => [Info] Warranty <= 1
-09/15/2025 11:08:19 => [Info] Unit = 'ปี'
-09/15/2025 11:08:22 => [Debug] SN detect =SWB0045805645
-09/15/2025 11:08:26 => [Debug] 5072297226 | 5151634131| 110954095
-09/15/2025 11:08:26 => [Info] Data to be filled | 110954095 |
-09/15/2025 11:08:26 => [Info] Warranty <= 1
-09/15/2025 11:08:26 => [Info] Unit = 'ปี'
-09/15/2025 11:08:29 => [Debug] SN detect =
-09/15/2025 11:08:33 => [Debug] 5072297226 | 5151634131| 110890346
-09/15/2025 11:08:33 => [Info] Data to be filled | 110890346 | C451284035
-09/15/2025 11:08:33 => [Info] Warranty <= 1
-09/15/2025 11:08:33 => [Info] Unit = 'ปี'
-09/15/2025 11:08:36 => [Debug] SN detect =C451284035
-09/15/2025 11:08:40 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
-09/15/2025 11:08:46 => [Debug] -
-09/15/2025 11:08:52 => [Info] TEC_SAP_Warranty_v2 execution ended in: 00:02:02
+10/01/2025 18:05:01 => [Debug] Debug started for file: Main
+10/01/2025 18:05:02 => [Info] TEC_SAP_Warranty_v2 execution started
+10/01/2025 18:05:03 => [Info] Initail start : Completed
+10/01/2025 18:05:04 => [Info] Healing agent configuration.
+10/01/2025 18:05:04 => [Info] `Initail End : Completed
+10/01/2025 18:05:04 => [Info] Accass SAP start : Completed
+10/01/2025 18:05:11 => [Info] False
+10/01/2025 18:05:11 => [Info] Access SAP End : Completed
+10/01/2025 18:05:12 => [Info] Start : ZTHSD_OC_GEN_R287
+10/01/2025 18:05:12 => [Debug] Start : Get remark, CODE: ZTHSD_OC_GEN_R287
+10/01/2025 18:05:12 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+10/01/2025 18:05:13 => [Info] END CALL R287
+10/01/2025 18:05:13 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+10/01/2025 18:05:17 => [Info] Delay 3s for loading report...
+10/01/2025 18:05:25 => [Info] R287 Save path: C:\Buffer_uipath\R287Name: R287_2025_10_01.XLSX
+10/01/2025 18:05:27 => [Info] C:\Buffer_uipath\R287\R287_2025_10_01.XLSX, Exist => Delete before download ...
+10/01/2025 18:05:31 => [Info] Killing Excel.exe R287 process ...
+10/01/2025 18:05:33 => [Info] Select path: C:\Buffer_uipath\R287\R287_2025_10_01.XLSX
+10/01/2025 18:05:33 => [Info] Audit: Using Excel File: C:\Buffer_uipath\R287\R287_2025_10_01.XLSX
+10/01/2025 18:05:48 => [Info] Filtering [BillDoc != '5152xxx]'
+10/01/2025 18:05:48 => [Info] Min OrdDate: 07.10.2024
+10/01/2025 18:05:48 => [Info] R287 Load report done...
+10/01/2025 18:05:48 => [Info] Start : ZTHSD_OC_GEN_R047
+10/01/2025 18:05:48 => [Debug] Start : Get remark, CODE: ZTHSD_OC_GEN_R047
+10/01/2025 18:05:48 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+10/01/2025 18:05:49 => [Info] END CALL R047
+10/01/2025 18:05:49 => [Info] R047 Path: C:\Buffer_uipath\R047
+10/01/2025 18:05:49 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+10/01/2025 18:06:37 => [Info] File name: R047_2025_10_01.XLSX
+10/01/2025 18:06:37 => [Info] C:\Buffer_uipath\R047/R047_2025_10_01.XLSX, Exist => Delete before download ...
+10/01/2025 18:06:41 => [Info] Killing Excel.exe R047 process ...
+10/01/2025 18:06:43 => [Info] C:\Buffer_uipath\R047\SAP_WARRANTY\Bill_split\2025_10_01  |  Files in folder already exist => Delete first...
+10/01/2025 18:06:43 => [Debug] [SAP] Deleteing...C:\Buffer_uipath\R047\SAP_WARRANTY\Bill_split\2025_10_01\BillNo_5151635333_0900_1600.xlsx
+10/01/2025 18:06:43 => [Debug] [SAP] Deleteing...C:\Buffer_uipath\R047\SAP_WARRANTY\Bill_split\2025_10_01\BillNo_5151635335_0900_1600.xlsx
+10/01/2025 18:06:43 => [Debug] [SAP] Deleteing...C:\Buffer_uipath\R047\SAP_WARRANTY\Bill_split\2025_10_01\BillNo_5151635341_0900_1600.xlsx
+10/01/2025 18:06:43 => [Debug] [SAP] Deleteing...C:\Buffer_uipath\R047\SAP_WARRANTY\Bill_split\2025_10_01\BillNo_5151635344_0900_1600.xlsx
+10/01/2025 18:06:43 => [Debug] [SAP] Deleteing...C:\Buffer_uipath\R047\SAP_WARRANTY\Bill_split\2025_10_01\BillNo_5151635379_0900_1600.xlsx
+10/01/2025 18:06:43 => [Debug] [SAP] Deleteing...C:\Buffer_uipath\R047\SAP_WARRANTY\Bill_split\2025_10_01\BillNo_5151635397_0900_1600.xlsx
+10/01/2025 18:06:43 => [Debug] [SAP] Deleteing...C:\Buffer_uipath\R047\SAP_WARRANTY\Bill_split\2025_10_01\BillNo_5151635401_0900_1600.xlsx
+10/01/2025 18:06:43 => [Debug] [SAP] Deleteing...C:\Buffer_uipath\R047\SAP_WARRANTY\Bill_split\2025_10_01\BillNo_5151635409_0900_1600.xlsx
+10/01/2025 18:06:43 => [Debug] [SAP] Deleteing...C:\Buffer_uipath\R047\SAP_WARRANTY\Bill_split\2025_10_01\BillNo_5151635415_0900_1600.xlsx
+10/01/2025 18:06:43 => [Info] C:\Buffer_uipath\R047\COA\Bill_split\2025_10_01  |  Files in folder already exist => Delete first...
+10/01/2025 18:06:43 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_10_01\BillNo_5151635357_0900_1600.xlsx
+10/01/2025 18:06:43 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_10_01\BillNo_5151635359_0900_1600.xlsx
+10/01/2025 18:06:43 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_10_01\BillNo_5151635376_0900_1600.xlsx
+10/01/2025 18:06:43 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_10_01\BillNo_5151635377_0900_1600.xlsx
+10/01/2025 18:06:43 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_10_01\BillNo_5151635404_0900_1600.xlsx
+10/01/2025 18:06:43 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_10_01\BillNo_5151635405_0900_1600.xlsx
+10/01/2025 18:06:43 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_10_01\BillNo_5151635407_0900_1600.xlsx
+10/01/2025 18:06:43 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_10_01\BillNo_5151635408_0900_1600.xlsx
+10/01/2025 18:06:43 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_10_01\BillNo_5151635414_0900_1600.xlsx
+10/01/2025 18:06:43 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_10_01\BillNo_5151635417_0900_1600.xlsx
+10/01/2025 18:06:43 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_10_01\BillNo_5151635418_0900_1600.xlsx
+10/01/2025 18:06:43 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_10_01\BillNo_5151635419_0900_1600.xlsx
+10/01/2025 18:06:44 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_10_01\BillNo_5151635420_0900_1600.xlsx
+10/01/2025 18:06:44 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_10_01\BillNo_5151635421_0900_1600.xlsx
+10/01/2025 18:06:44 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_10_01\BillNo_5151635422_0900_1600.xlsx
+10/01/2025 18:06:44 => [Debug] [COA] Deleteing...C:\Buffer_uipath\R047\COA\Bill_split\2025_10_01\BillNo_5151635424_0900_1600.xlsx
+10/01/2025 18:06:51 => [Info] Output at C:\py_lab\py_execute\output_log_01.10.2025.txt
+10/01/2025 18:06:51 => [Info] Running python...At C:\py_lab\py_execute\py_split_warranty.py
+10/01/2025 18:06:53 => [Info] Delay 2s ...
+CALL Next T-Code R319
+10/01/2025 18:06:53 => [Info] C:\Buffer_uipath\output_SAP_warranty  |  Files in folder already exist => Delete first...
+10/01/2025 18:06:53 => [Debug] [SAP] Deleteing...C:\Buffer_uipath\output_SAP_warranty\5151635397_01_10_2025_03_44_06.pdf
+10/01/2025 18:06:53 => [Debug] No pdf found or cant detect SAP dl folder
+10/01/2025 18:06:54 => [Info] Continue into C:\Buffer_uipath\R047\SAP_WARRANTY\Bill_split\2025_10_01...
+10/01/2025 18:06:54 => [Info] Start : ZTHSD_OC_GEN_R319
+10/01/2025 18:06:54 => [Debug] Start : Get remark, CODE: ZTHSD_OC_GEN_R319
+10/01/2025 18:06:54 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+10/01/2025 18:06:54 => [Info] END Call R319
+10/01/2025 18:06:54 => [Info] START File => BillNo_5151635333_0900_1700.xlsx
+10/01/2025 18:06:55 => [Debug] 5151635333
+10/01/2025 18:06:55 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+10/01/2025 18:07:00 => [Info] Mat already exist by 1st row => Skip this bill
+10/01/2025 18:07:00 => [Info] Start : ZTHSD_OC_GEN_R319
+10/01/2025 18:07:00 => [Debug] Start : Get remark, CODE: ZTHSD_OC_GEN_R319
+10/01/2025 18:07:00 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+10/01/2025 18:07:00 => [Info] END Call R319
+10/01/2025 18:07:00 => [Info] START File => BillNo_5151635335_0900_1700.xlsx
+10/01/2025 18:07:00 => [Debug] 5151635335
+10/01/2025 18:07:00 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+10/01/2025 18:07:05 => [Info] Mat already exist by 1st row => Skip this bill
+10/01/2025 18:07:05 => [Info] Start : ZTHSD_OC_GEN_R319
+10/01/2025 18:07:05 => [Debug] Start : Get remark, CODE: ZTHSD_OC_GEN_R319
+10/01/2025 18:07:05 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+10/01/2025 18:07:06 => [Info] END Call R319
+10/01/2025 18:07:06 => [Info] START File => BillNo_5151635341_0900_1700.xlsx
+10/01/2025 18:07:06 => [Debug] 5151635341
+10/01/2025 18:07:06 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+10/01/2025 18:07:11 => [Info] Mat already exist by 1st row => Skip this bill
+10/01/2025 18:07:11 => [Info] Start : ZTHSD_OC_GEN_R319
+10/01/2025 18:07:11 => [Debug] Start : Get remark, CODE: ZTHSD_OC_GEN_R319
+10/01/2025 18:07:11 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+10/01/2025 18:07:11 => [Info] END Call R319
+10/01/2025 18:07:11 => [Info] START File => BillNo_5151635344_0900_1700.xlsx
+10/01/2025 18:07:11 => [Debug] 5151635344
+10/01/2025 18:07:11 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+10/01/2025 18:07:16 => [Info] Mat already exist by 1st row => Skip this bill
+10/01/2025 18:07:16 => [Info] Start : ZTHSD_OC_GEN_R319
+10/01/2025 18:07:16 => [Debug] Start : Get remark, CODE: ZTHSD_OC_GEN_R319
+10/01/2025 18:07:16 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+10/01/2025 18:07:17 => [Info] END Call R319
+10/01/2025 18:07:17 => [Info] START File => BillNo_5151635379_0900_1700.xlsx
+10/01/2025 18:07:17 => [Debug] 5151635379
+10/01/2025 18:07:17 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+10/01/2025 18:07:21 => [Info] Mat already exist by 1st row => Skip this bill
+10/01/2025 18:07:21 => [Info] Start : ZTHSD_OC_GEN_R319
+10/01/2025 18:07:21 => [Debug] Start : Get remark, CODE: ZTHSD_OC_GEN_R319
+10/01/2025 18:07:21 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+10/01/2025 18:07:22 => [Info] END Call R319
+10/01/2025 18:07:22 => [Info] START File => BillNo_5151635397_0900_1700.xlsx
+10/01/2025 18:07:22 => [Debug] 5151635397
+10/01/2025 18:07:22 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+10/01/2025 18:07:28 => [Info] Not found mat => Robot key... START
+10/01/2025 18:07:28 => [Debug] 5072304961 | 5151635397| 110750684
+10/01/2025 18:07:28 => [Info] Data to be filled | 110750684 | 000000000050129244
+10/01/2025 18:07:28 => [Info] Warranty <= 1
+10/01/2025 18:07:28 => [Info] Unit = 'ปี'
+10/01/2025 18:07:31 => [Debug] SN detect =000000000050129244
+10/01/2025 18:07:34 => [Debug] 5072304961 | 5151635397| 110750684
+10/01/2025 18:07:34 => [Info] Data to be filled | 110750684 | 000000000050129248
+10/01/2025 18:07:34 => [Info] Warranty <= 1
+10/01/2025 18:07:34 => [Info] Unit = 'ปี'
+10/01/2025 18:07:37 => [Debug] SN detect =000000000050129248
+10/01/2025 18:07:40 => [Debug] 5072304961 | 5151635397| 110750684
+10/01/2025 18:07:40 => [Info] Data to be filled | 110750684 | 000000000050129249
+10/01/2025 18:07:40 => [Info] Warranty <= 1
+10/01/2025 18:07:40 => [Info] Unit = 'ปี'
+10/01/2025 18:07:43 => [Debug] SN detect =000000000050129249
+10/01/2025 18:07:47 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+10/01/2025 18:07:53 => [Debug] -
+10/01/2025 18:07:55 => [Info] Path dl is on cloud
+10/01/2025 18:07:59 => [Info] Start : ZTHSD_OC_GEN_R319
+10/01/2025 18:07:59 => [Debug] Start : Get remark, CODE: ZTHSD_OC_GEN_R319
+10/01/2025 18:07:59 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+10/01/2025 18:08:00 => [Info] END Call R319
+10/01/2025 18:08:00 => [Info] START File => BillNo_5151635401_0900_1700.xlsx
+10/01/2025 18:08:00 => [Debug] 5151635401
+10/01/2025 18:08:00 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+10/01/2025 18:08:05 => [Info] Mat already exist by 1st row => Skip this bill
+10/01/2025 18:08:05 => [Info] Start : ZTHSD_OC_GEN_R319
+10/01/2025 18:08:05 => [Debug] Start : Get remark, CODE: ZTHSD_OC_GEN_R319
+10/01/2025 18:08:05 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+10/01/2025 18:08:05 => [Info] END Call R319
+10/01/2025 18:08:05 => [Info] START File => BillNo_5151635409_0900_1700.xlsx
+10/01/2025 18:08:05 => [Debug] 5151635409
+10/01/2025 18:08:05 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+10/01/2025 18:08:10 => [Info] Mat already exist by 1st row => Skip this bill
+10/01/2025 18:08:10 => [Info] Start : ZTHSD_OC_GEN_R319
+10/01/2025 18:08:10 => [Debug] Start : Get remark, CODE: ZTHSD_OC_GEN_R319
+10/01/2025 18:08:10 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+10/01/2025 18:08:11 => [Info] END Call R319
+10/01/2025 18:08:11 => [Info] START File => BillNo_5151635415_0900_1700.xlsx
+10/01/2025 18:08:11 => [Debug] 5151635415
+10/01/2025 18:08:11 => [Debug] Audit: Using Desktop App. App: C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe Arguments:
+10/01/2025 18:08:16 => [Info] Mat already exist by 1st row => Skip this bill
+10/01/2025 18:08:17 => [Info] Job complete (❁´◡`❁)
+Closing... saplogon.exe
+10/01/2025 18:08:17 => [Info] COA Module start ... ╰(*°▽°*)╯
+10/01/2025 18:08:17 => [Debug] New branch SCM ADMIN 03
+10/01/2025 18:08:18 => [Info] File count = 0
+10/01/2025 18:08:18 => [Info] Has folder but, have no files inside => Go on...
+10/01/2025 18:08:18 => [Debug] Audit: Using Web App. Browser: Chrome URL: https://resourcecenter.biomerieux.com/
+10/01/2025 18:08:27 => [Info] LOGIN Already
+10/01/2025 18:08:27 => [Debug] isLogin == True
+10/01/2025 18:08:27 => [Info] found Search page ╰(*°▽°*)╯
+10/01/2025 18:08:29 => [Info] END PROCESS - Out of web scope
+10/01/2025 18:08:29 => [Info] READY !
+10/01/2025 18:08:29 => [Info] \output\2025_10_01\ => Exist!
+10/01/2025 18:08:29 => [Info] iscloud_coa_folder_exist: True
+10/01/2025 18:08:29 => [Info] D:\\SharePoint\\DKSH\\SCM RPA - TEC\\SAP_COA\\COA\\2025_10_01=> Exist
+10/01/2025 18:08:29 => [Debug] Audit: Using Web App. Browser: Chrome URL: https://resourcecenter.biomerieux.com/search/eifu
+10/01/2025 18:08:29 => [Info] File => BillNo_5151635357_0900_1700.xlsx START
+10/01/2025 18:08:30 => [Info] Datatable row => 1
+10/01/2025 18:08:30 => [Info] START Lot No. => BBPK1397
+10/01/2025 18:08:32 => [Info] Doc = 0 => Continue next item...
+10/01/2025 18:08:32 => [Info] Waiting download complete 5sec..
+10/01/2025 18:08:38 => [Info] Merge error may be occured !  => Move file instead (•_•)
+10/01/2025 18:08:38 => [Info] ================== END File  ======================
+10/01/2025 18:08:38 => [Info] File => BillNo_5151635359_0900_1700.xlsx START
+10/01/2025 18:08:38 => [Info] Datatable row => 1
+10/01/2025 18:08:39 => [Info] START Lot No. => 2513510
+10/01/2025 18:08:41 => [Info] Doc == 2
+10/01/2025 18:08:47 => [Info] Card matcode => 423849 ? 423849
+10/01/2025 18:08:47 => [Info] True
+10/01/2025 18:08:47 => [Info] click at count_id = 2
+10/01/2025 18:08:48 => [Info] Waiting download complete 5sec..
+10/01/2025 18:08:53 => [Info] Merge error may be occured !  => Move file instead (•_•)
+10/01/2025 18:08:53 => [Info] ================== END File  ======================
+10/01/2025 18:08:53 => [Info] File => BillNo_5151635376_0900_1700.xlsx START
+10/01/2025 18:08:53 => [Info] Datatable row => 4
+10/01/2025 18:08:54 => [Info] START Lot No. => 2514890
+10/01/2025 18:08:56 => [Info] Doc == 4
+10/01/2025 18:09:05 => [Info] Card matcode => 424133 ? 424132
+10/01/2025 18:09:05 => [Info] False
+10/01/2025 18:09:08 => [Info] Card matcode => 424132 ? 424132
+10/01/2025 18:09:08 => [Info] True
+10/01/2025 18:09:08 => [Info] click at count_id = 2
+10/01/2025 18:09:10 => [Info] START Lot No. => 2518360
+10/01/2025 18:09:11 => [Info] Doc == 2
+10/01/2025 18:09:17 => [Info] Card matcode => 423868 ? 423868
+10/01/2025 18:09:17 => [Info] True
+10/01/2025 18:09:17 => [Info] click at count_id = 2
+10/01/2025 18:09:19 => [Info] START Lot No. => 2468130
+10/01/2025 18:09:21 => [Info] Doc == 2
+10/01/2025 18:09:27 => [Info] Card matcode => 42048 ? 42048
+10/01/2025 18:09:27 => [Info] True
+10/01/2025 18:09:27 => [Info] click at count_id = 2
+10/01/2025 18:09:28 => [Info] START Lot No. => 2514200
+10/01/2025 18:09:30 => [Info] Doc == 4
+10/01/2025 18:09:39 => [Info] Card matcode => 418247 ? 418247
+10/01/2025 18:09:39 => [Info] True
+10/01/2025 18:09:39 => [Info] click at count_id = 2
+10/01/2025 18:09:42 => [Info] Card matcode => 418246 ? 418247
+10/01/2025 18:09:42 => [Info] False
+10/01/2025 18:09:42 => [Info] Waiting download complete 5sec..
+10/01/2025 18:09:50 => [Info] Merge done! at 06:09:50
+10/01/2025 18:09:50 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2468130 - 3 - 42048.pdf
+10/01/2025 18:09:50 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2514200 - 3 - 418247.pdf
+10/01/2025 18:09:50 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2514890 - 3 - 424133.pdf
+10/01/2025 18:09:50 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2518360 - 3 - 423868.pdf
+10/01/2025 18:09:50 => [Info] ================== END File  ======================
+10/01/2025 18:09:50 => [Info] File => BillNo_5151635377_0900_1700.xlsx START
+10/01/2025 18:09:50 => [Info] Datatable row => 9
+10/01/2025 18:09:51 => [Info] START Lot No. => 1011444460
+10/01/2025 18:09:53 => [Info] Doc == 2
+10/01/2025 18:09:59 => [Info] Card matcode => 43555 ? 43555
+10/01/2025 18:09:59 => [Info] True
+10/01/2025 18:09:59 => [Info] click at count_id = 2
+10/01/2025 18:10:00 => [Info] START Lot No. => 1011500840
+10/01/2025 18:10:02 => [Info] Doc == 2
+10/01/2025 18:10:08 => [Info] Card matcode => 43565 ? 43565
+10/01/2025 18:10:08 => [Info] True
+10/01/2025 18:10:08 => [Info] click at count_id = 2
+10/01/2025 18:10:10 => [Info] START Lot No. => 2492050
+10/01/2025 18:10:12 => [Info] Doc == 2
+10/01/2025 18:10:18 => [Info] Card matcode => 42614 ? 42614
+10/01/2025 18:10:18 => [Info] True
+10/01/2025 18:10:18 => [Info] click at count_id = 2
+10/01/2025 18:10:19 => [Info] START Lot No. => 2530230
+10/01/2025 18:10:21 => [Info] Doc == 2
+10/01/2025 18:10:27 => [Info] Card matcode => AEB521610 ? AEB521610
+10/01/2025 18:10:27 => [Info] True
+10/01/2025 18:10:27 => [Info] click at count_id = 2
+10/01/2025 18:10:29 => [Info] START Lot No. => 1011442540
+10/01/2025 18:10:31 => [Info] Doc == 2
+10/01/2025 18:10:37 => [Info] Card matcode => 43011 ? 43011
+10/01/2025 18:10:37 => [Info] True
+10/01/2025 18:10:37 => [Info] click at count_id = 2
+10/01/2025 18:10:39 => [Info] START Lot No. => 2393093203
+10/01/2025 18:10:41 => [Info] Doc == 2
+10/01/2025 18:10:47 => [Info] Card matcode => 21345 ? 21345
+10/01/2025 18:10:47 => [Info] True
+10/01/2025 18:10:47 => [Info] click at count_id = 2
+10/01/2025 18:10:48 => [Info] START Lot No. => 2443140103
+10/01/2025 18:10:50 => [Info] Doc == 2
+10/01/2025 18:10:56 => [Info] Card matcode => 21347 ? 21347
+10/01/2025 18:10:56 => [Info] True
+10/01/2025 18:10:56 => [Info] click at count_id = 2
+10/01/2025 18:10:57 => [Info] START Lot No. => 1011427380
+10/01/2025 18:10:59 => [Info] Doc == 2
+10/01/2025 18:11:05 => [Info] Card matcode => 43812 ? 43812
+10/01/2025 18:11:05 => [Info] True
+10/01/2025 18:11:05 => [Info] click at count_id = 2
+10/01/2025 18:11:06 => [Info] START Lot No. => 2433087503
+10/01/2025 18:11:09 => [Info] Doc == 2
+10/01/2025 18:11:15 => [Info] Card matcode => 21343 ? 21343
+10/01/2025 18:11:15 => [Info] True
+10/01/2025 18:11:15 => [Info] click at count_id = 2
+10/01/2025 18:11:15 => [Info] Waiting download complete 5sec..
+10/01/2025 18:11:22 => [Info] Merge done! at 06:11:22
+10/01/2025 18:11:22 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 1011427380 - 8 - 43812.pdf
+10/01/2025 18:11:22 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 1011442540 - 23 - 43011.pdf
+10/01/2025 18:11:22 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 1011444460 - 14 - 43555.pdf
+10/01/2025 18:11:22 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 1011500840 - 12 - 43565.pdf
+10/01/2025 18:11:22 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2393093203 - 1 - 21345.pdf
+10/01/2025 18:11:22 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2433087503 - 1 - 21343.pdf
+10/01/2025 18:11:22 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2443140103 - 1 - 21347.pdf
+10/01/2025 18:11:22 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2492050 - 12 - 42614.pdf
+10/01/2025 18:11:22 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2530230 - 2 - AEB521610.pdf
+10/01/2025 18:11:22 => [Info] ================== END File  ======================
+10/01/2025 18:11:22 => [Info] File => BillNo_5151635404_0900_1700.xlsx START
+10/01/2025 18:11:22 => [Info] Datatable row => 1
+10/01/2025 18:11:23 => [Info] START Lot No. => 1011267240
+10/01/2025 18:11:25 => [Info] Doc == 1
+10/01/2025 18:11:28 => [Info] Card matcode => 70100 ? 70100
+10/01/2025 18:11:28 => [Info] True
+10/01/2025 18:11:28 => [Info] click at count_id = 2
+10/01/2025 18:11:29 => [Info] Waiting download complete 5sec..
+10/01/2025 18:11:34 => [Info] Merge error may be occured !  => Move file instead (•_•)
+10/01/2025 18:11:34 => [Info] ================== END File  ======================
+10/01/2025 18:11:34 => [Info] File => BillNo_5151635405_0900_1700.xlsx START
+10/01/2025 18:11:34 => [Info] Datatable row => 1
+10/01/2025 18:11:35 => [Info] START Lot No. => 1011231540
+10/01/2025 18:11:37 => [Info] Doc == 2
+10/01/2025 18:11:43 => [Info] Card matcode => 80004 ? 80004
+10/01/2025 18:11:43 => [Info] True
+10/01/2025 18:11:43 => [Info] click at count_id = 2
+10/01/2025 18:11:44 => [Info] Waiting download complete 5sec..
+10/01/2025 18:11:49 => [Info] Merge error may be occured !  => Move file instead (•_•)
+10/01/2025 18:11:50 => [Info] ================== END File  ======================
+10/01/2025 18:11:50 => [Info] File => BillNo_5151635407_0900_1700.xlsx START
+10/01/2025 18:11:50 => [Info] Datatable row => 3
+10/01/2025 18:11:51 => [Info] START Lot No. => 1011160880
+10/01/2025 18:11:53 => [Info] Doc == 2
+10/01/2025 18:11:59 => [Info] Card matcode => 423106 ? 423106
+10/01/2025 18:11:59 => [Info] True
+10/01/2025 18:11:59 => [Info] click at count_id = 2
+10/01/2025 18:12:00 => [Info] START Lot No. => 1009795983
+10/01/2025 18:12:02 => [Info] Doc = 0 => Continue next item...
+10/01/2025 18:12:02 => [Info] START Lot No. => 1011428720
+10/01/2025 18:12:05 => [Info] Doc == 2
+10/01/2025 18:12:11 => [Info] Card matcode => 414057 ? 414057
+10/01/2025 18:12:11 => [Info] True
+10/01/2025 18:12:11 => [Info] click at count_id = 2
+10/01/2025 18:12:11 => [Info] Waiting download complete 5sec..
+10/01/2025 18:12:18 => [Info] Merge done! at 06:12:18
+10/01/2025 18:12:18 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 1011160880 - 2 - 423106.pdf
+10/01/2025 18:12:18 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 1011428720 - 1 - 414057.pdf
+10/01/2025 18:12:18 => [Info] ================== END File  ======================
+10/01/2025 18:12:18 => [Info] File => BillNo_5151635408_0900_1700.xlsx START
+10/01/2025 18:12:18 => [Info] Datatable row => 4
+10/01/2025 18:12:19 => [Info] START Lot No. => 6873220503
+10/01/2025 18:12:21 => [Info] Doc == 2
+10/01/2025 18:12:27 => [Info] Card matcode => 422000 ? 422000
+10/01/2025 18:12:27 => [Info] True
+10/01/2025 18:12:27 => [Info] click at count_id = 2
+10/01/2025 18:12:29 => [Info] START Lot No. => 2423225603
+10/01/2025 18:12:31 => [Info] Doc == 2
+10/01/2025 18:12:36 => [Info] Card matcode => 21342 ? 21342
+10/01/2025 18:12:36 => [Info] True
+10/01/2025 18:12:36 => [Info] click at count_id = 2
+10/01/2025 18:12:38 => [Info] START Lot No. => 2413011103
+10/01/2025 18:12:40 => [Info] Doc == 2
+10/01/2025 18:12:46 => [Info] Card matcode => 21341 ? 21341
+10/01/2025 18:12:46 => [Info] True
+10/01/2025 18:12:46 => [Info] click at count_id = 2
+10/01/2025 18:12:48 => [Info] START Lot No. => 3813162403
+10/01/2025 18:12:50 => [Info] Doc == 2
+10/01/2025 18:12:56 => [Info] Card matcode => 421827 ? 421827
+10/01/2025 18:12:56 => [Info] True
+10/01/2025 18:12:56 => [Info] click at count_id = 2
+10/01/2025 18:12:56 => [Info] Waiting download complete 5sec..
+10/01/2025 18:13:03 => [Info] Merge done! at 06:13:03
+10/01/2025 18:13:03 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2413011103 - 1 - 21341.pdf
+10/01/2025 18:13:03 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2423225603 - 1 - 21342.pdf
+10/01/2025 18:13:03 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 3813162403 - 1 - 421827.pdf
+10/01/2025 18:13:03 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 6873220503 - 1 - 422000.pdf
+10/01/2025 18:13:03 => [Info] ================== END File  ======================
+10/01/2025 18:13:03 => [Info] File => BillNo_5151635414_0900_1700.xlsx START
+10/01/2025 18:13:03 => [Info] Datatable row => 2
+10/01/2025 18:13:04 => [Info] START Lot No. => 2444770
+10/01/2025 18:13:06 => [Info] Doc == 2
+10/01/2025 18:13:12 => [Info] Card matcode => 412498 ? 412498
+10/01/2025 18:13:12 => [Info] True
+10/01/2025 18:13:12 => [Info] click at count_id = 2
+10/01/2025 18:13:13 => [Info] START Lot No. => 2458410
+10/01/2025 18:13:16 => [Info] Doc == 2
+10/01/2025 18:13:22 => [Info] Card matcode => 410848 ? 410848
+10/01/2025 18:13:22 => [Info] True
+10/01/2025 18:13:22 => [Info] click at count_id = 2
+10/01/2025 18:13:22 => [Info] Waiting download complete 5sec..
+10/01/2025 18:13:29 => [Info] Merge done! at 06:13:29
+10/01/2025 18:13:29 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2444770 - 0 - 412498.pdf
+10/01/2025 18:13:29 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2458410 - 2 - 410848.pdf
+10/01/2025 18:13:29 => [Info] ================== END File  ======================
+10/01/2025 18:13:29 => [Info] File => BillNo_5151635417_0900_1700.xlsx START
+10/01/2025 18:13:29 => [Info] Datatable row => 1
+10/01/2025 18:13:30 => [Info] START Lot No. => 2488440
+10/01/2025 18:13:33 => [Info] Doc == 2
+10/01/2025 18:13:39 => [Info] Card matcode => 42643 ? 42643
+10/01/2025 18:13:39 => [Info] True
+10/01/2025 18:13:39 => [Info] click at count_id = 2
+10/01/2025 18:13:39 => [Info] Waiting download complete 5sec..
+10/01/2025 18:13:45 => [Info] Merge error may be occured !  => Move file instead (•_•)
+10/01/2025 18:13:45 => [Info] ================== END File  ======================
+10/01/2025 18:13:45 => [Info] File => BillNo_5151635418_0900_1700.xlsx START
+10/01/2025 18:13:45 => [Info] Datatable row => 1
+10/01/2025 18:13:46 => [Info] START Lot No. => 1011123230
+10/01/2025 18:13:48 => [Info] Doc == 2
+10/01/2025 18:13:54 => [Info] Card matcode => 80106 ? 80106
+10/01/2025 18:13:54 => [Info] True
+10/01/2025 18:13:54 => [Info] click at count_id = 2
+10/01/2025 18:13:54 => [Info] Waiting download complete 5sec..
+10/01/2025 18:14:00 => [Info] Merge error may be occured !  => Move file instead (•_•)
+10/01/2025 18:14:00 => [Info] ================== END File  ======================
+10/01/2025 18:14:00 => [Info] File => BillNo_5151635419_0900_1700.xlsx START
+10/01/2025 18:14:00 => [Info] Datatable row => 1
+10/01/2025 18:14:01 => [Info] START Lot No. => 2427540
+10/01/2025 18:14:03 => [Info] Doc == 2
+10/01/2025 18:14:09 => [Info] Card matcode => 410849 ? 410849
+10/01/2025 18:14:09 => [Info] True
+10/01/2025 18:14:09 => [Info] click at count_id = 2
+10/01/2025 18:14:10 => [Info] Waiting download complete 5sec..
+10/01/2025 18:14:15 => [Info] Merge error may be occured !  => Move file instead (•_•)
+10/01/2025 18:14:15 => [Info] ================== END File  ======================
+10/01/2025 18:14:15 => [Info] File => BillNo_5151635420_0900_1700.xlsx START
+10/01/2025 18:14:15 => [Info] Datatable row => 3
+10/01/2025 18:14:16 => [Info] START Lot No. => 2427540
+10/01/2025 18:14:17 => [Info] Doc == 2
+10/01/2025 18:14:23 => [Info] Card matcode => 410849 ? 410849
+10/01/2025 18:14:23 => [Info] True
+10/01/2025 18:14:23 => [Info] click at count_id = 2
+10/01/2025 18:14:25 => [Info] START Lot No. => 1011280110
+10/01/2025 18:14:27 => [Info] Doc == 2
+10/01/2025 18:14:33 => [Info] Card matcode => 96125 ? 96125
+10/01/2025 18:14:33 => [Info] True
+10/01/2025 18:14:33 => [Info] click at count_id = 2
+10/01/2025 18:14:35 => [Info] START Lot No. => 2503240
+10/01/2025 18:14:37 => [Info] Doc == 2
+10/01/2025 18:14:43 => [Info] Card matcode => 42643 ? 42643
+10/01/2025 18:14:43 => [Info] True
+10/01/2025 18:14:43 => [Info] click at count_id = 2
+10/01/2025 18:14:43 => [Info] Waiting download complete 5sec..
+10/01/2025 18:14:50 => [Info] Merge done! at 06:14:50
+10/01/2025 18:14:50 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 1011280110 - 9 - 96125.pdf
+10/01/2025 18:14:50 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2427540 - 2 - 410849.pdf
+10/01/2025 18:14:50 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2503240 - 3 - 42643.pdf
+10/01/2025 18:14:50 => [Info] ================== END File  ======================
+10/01/2025 18:14:50 => [Info] File => BillNo_5151635421_0900_1700.xlsx START
+10/01/2025 18:14:50 => [Info] Datatable row => 1
+10/01/2025 18:14:51 => [Info] START Lot No. => 240902
+10/01/2025 18:14:53 => [Info] Doc == 2
+10/01/2025 18:14:59 => [Info] Card matcode => 30551 ? 30551
+10/01/2025 18:14:59 => [Info] True
+10/01/2025 18:14:59 => [Info] click at count_id = 2
+10/01/2025 18:14:59 => [Info] Waiting download complete 5sec..
+10/01/2025 18:15:05 => [Info] Merge error may be occured !  => Move file instead (•_•)
+10/01/2025 18:15:05 => [Info] ================== END File  ======================
+10/01/2025 18:15:05 => [Info] File => BillNo_5151635422_0900_1700.xlsx START
+10/01/2025 18:15:05 => [Info] Datatable row => 2
+10/01/2025 18:15:06 => [Info] START Lot No. => 1011134300
+10/01/2025 18:15:08 => [Info] Doc == 2
+10/01/2025 18:15:14 => [Info] Card matcode => 80006 ? 80006
+10/01/2025 18:15:14 => [Info] True
+10/01/2025 18:15:14 => [Info] click at count_id = 2
+10/01/2025 18:15:16 => [Info] START Lot No. => 1011376110
+10/01/2025 18:15:18 => [Info] Doc == 2
+10/01/2025 18:15:24 => [Info] Card matcode => 80000 ? 80000
+10/01/2025 18:15:24 => [Info] True
+10/01/2025 18:15:24 => [Info] click at count_id = 2
+10/01/2025 18:15:24 => [Info] Waiting download complete 5sec..
+10/01/2025 18:15:31 => [Info] Merge done! at 06:15:31
+10/01/2025 18:15:31 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 1011134300 - 4 - 80006.pdf
+10/01/2025 18:15:31 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 1011376110 - 6 - 80000.pdf
+10/01/2025 18:15:31 => [Info] ================== END File  ======================
+10/01/2025 18:15:31 => [Info] File => BillNo_5151635424_0900_1700.xlsx START
+10/01/2025 18:15:31 => [Info] Datatable row => 3
+10/01/2025 18:15:32 => [Info] START Lot No. => 2496690
+10/01/2025 18:15:34 => [Info] Doc == 2
+10/01/2025 18:15:40 => [Info] Card matcode => AEB121609 ? AEB121609
+10/01/2025 18:15:40 => [Info] True
+10/01/2025 18:15:40 => [Info] click at count_id = 2
+10/01/2025 18:15:42 => [Info] START Lot No. => 2427540
+10/01/2025 18:15:44 => [Info] Doc == 2
+10/01/2025 18:15:50 => [Info] Card matcode => 410849 ? 410849
+10/01/2025 18:15:50 => [Info] True
+10/01/2025 18:15:50 => [Info] click at count_id = 2
+10/01/2025 18:15:51 => [Info] START Lot No. => 2457800
+10/01/2025 18:15:53 => [Info] Doc == 1
+10/01/2025 18:15:56 => [Info] Card matcode => AEB110869 ? AEB110869
+10/01/2025 18:15:56 => [Info] True
+10/01/2025 18:15:56 => [Info] click at count_id = 2
+10/01/2025 18:15:57 => [Info] Waiting download complete 5sec..
+10/01/2025 18:16:03 => [Info] Merge done! at 06:16:03
+10/01/2025 18:16:03 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2427540 - 2 - 410849.pdf
+10/01/2025 18:16:03 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2457800 - 3 - AEB110869.pdf
+10/01/2025 18:16:03 => [Info] Deleting ... C:\Buffer_uipath\cer_download\QC Certificate - 2496690 - 4 - AEB121609.pdf
+10/01/2025 18:16:03 => [Info] ================== END File  ======================
+10/01/2025 18:16:04 => [Info] TEC_SAP_Warranty_v2 execution ended in: 00:11:01
