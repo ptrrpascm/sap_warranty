@@ -8,7 +8,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>716.8,801.6</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1101,820</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -161,13 +161,13 @@
       <AssemblyReference>System.Diagnostics.TraceSource</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="662.4,736.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="662,736" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Flowchart sap:VirtualizedContainerService.HintSize="776.8,667.2" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+    <Flowchart sap:VirtualizedContainerService.HintSize="600,648" sap2010:WorkflowViewState.IdRef="Flowchart_1">
       <Flowchart.Variables>
         <Variable x:TypeArguments="x:Boolean" Name="isReadyType" />
         <Variable x:TypeArguments="x:String" Name="date_now_folder_fm" />
@@ -179,7 +179,7 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
           <av:Point x:Key="ShapeLocation">115,45</av:Point>
-          <av:Size x:Key="ShapeSize">49.6,49.6</av:Size>
+          <av:Size x:Key="ShapeSize">50,50</av:Size>
           <av:PointCollection x:Key="ConnectorLocation">139.8,94.6 139.8,170.2 215,170.2</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
@@ -190,10 +190,10 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">1115,45</av:Point>
-            <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+            <av:Size x:Key="ShapeSize">110,70</av:Size>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Sequence DisplayName="Web BIO" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+        <Sequence DisplayName="Web BIO" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_2">
           <Sequence.Variables>
             <Variable x:TypeArguments="x:String" Name="t_start" />
           </Sequence.Variables>
@@ -267,11 +267,11 @@
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">375,135</av:Point>
-            <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+            <av:Size x:Key="ShapeSize">110,70</av:Size>
             <av:PointCollection x:Key="ConnectorLocation">485,170 515,170 515,169.5 560,169.5</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Sequence DisplayName="[BIO]Open_web_and_load" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="Sequence_6">
+        <Sequence DisplayName="[BIO]Open_web_and_load" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_6">
           <Sequence.Variables>
             <Variable x:TypeArguments="x:String" Name="folder_file_path" />
           </Sequence.Variables>
@@ -795,13 +795,13 @@
           <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1048,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_11" Message="[&quot;END PROCESS - Out of web scope&quot;]" />
         </Sequence>
         <FlowStep.Next>
-          <FlowDecision x:Name="__ReferenceID0" Condition="[isReadyType]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="60,60" sap2010:WorkflowViewState.IdRef="FlowDecision_1">
+          <FlowDecision x:Name="__ReferenceID0" Condition="[isReadyType]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="59,59" sap2010:WorkflowViewState.IdRef="FlowDecision_1">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <av:Point x:Key="ShapeLocation">560,140</av:Point>
-                <av:Size x:Key="ShapeSize">60,60</av:Size>
-                <av:PointCollection x:Key="TrueConnector">620,170 650,170 650,170.2 745,170.2</av:PointCollection>
+                <av:Size x:Key="ShapeSize">59,59</av:Size>
+                <av:PointCollection x:Key="TrueConnector">619,169.5 649,169.5 649,170 745,170</av:PointCollection>
                 <av:PointCollection x:Key="FalseConnector">589.5,140 589.5,110 800,110 800,75</av:PointCollection>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
@@ -810,10 +810,10 @@
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <av:Point x:Key="ShapeLocation">745,135</av:Point>
-                    <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                    <av:Size x:Key="ShapeSize">110,70</av:Size>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Sequence DisplayName="Download and manage file" sap:VirtualizedContainerService.HintSize="1438.4,18107.2" sap2010:WorkflowViewState.IdRef="Sequence_37">
+                <Sequence DisplayName="Download and manage file" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_37">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:String" Name="mock_lot" />
                     <Variable x:TypeArguments="x:String" Name="folder_file_path_split_scope" />
@@ -1995,10 +1995,10 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <av:Point x:Key="ShapeLocation">745,5</av:Point>
-                    <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                    <av:Size x:Key="ShapeSize">110,70</av:Size>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="LogMessage_28" Message="[&quot;Your're not ready to type and download :-(&quot;]" />
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="LogMessage_28" Message="[&quot;Your're not ready to type and download :-(&quot;]" />
               </FlowStep>
             </FlowDecision.False>
           </FlowDecision>
@@ -2008,7 +2008,7 @@ Select Group.First()).CopyToDataTable()]</InArgument>
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">1265,45</av:Point>
-            <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+            <av:Size x:Key="ShapeSize">110,70</av:Size>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
         <If Condition="[isReadyType]" DisplayName="If - Check isReady to type and load" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="If_3">
@@ -2087,10 +2087,10 @@ Select Group.First()).CopyToDataTable()]</InArgument>
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">1115,145</av:Point>
-            <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+            <av:Size x:Key="ShapeSize">110,70</av:Size>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Sequence DisplayName="Merge pdf" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="Sequence_76">
+        <Sequence DisplayName="Merge pdf" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_76">
           <Sequence.Variables>
             <Variable x:TypeArguments="s:String[]" Name="list_pdf_path" />
           </Sequence.Variables>
@@ -2116,11 +2116,11 @@ Select Group.First()).CopyToDataTable()]</InArgument>
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">215,135</av:Point>
-            <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+            <av:Size x:Key="ShapeSize">110,70</av:Size>
             <av:PointCollection x:Key="ConnectorLocation">325.4,170.2 340.2,170.2 340.2,255</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Sequence DisplayName="Var init" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="Sequence_85">
+        <Sequence DisplayName="Var init" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_85">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2169,11 +2169,11 @@ Select Group.First()).CopyToDataTable()]</InArgument>
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <av:Point x:Key="ShapeLocation">285,255</av:Point>
-                <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+                <av:Size x:Key="ShapeSize">110,70</av:Size>
                 <av:PointCollection x:Key="ConnectorLocation">395,290 430,290 430,205</av:PointCollection>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Sequence DisplayName="Check Bill merge exist" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="Sequence_91">
+            <Sequence DisplayName="Check Bill merge exist" sap:VirtualizedContainerService.HintSize="704,2726" sap2010:WorkflowViewState.IdRef="Sequence_91">
               <Sequence.Variables>
                 <Variable x:TypeArguments="x:String" Name="path_file_merge" />
                 <Variable x:TypeArguments="s:String[]" Name="get_file_merge" />
@@ -2184,7 +2184,7 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="641.6,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_17">
+              <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="642,57" sap2010:WorkflowViewState.IdRef="CommentOut_17">
                 <ui:CommentOut.Body>
                   <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="496,193.6" sap2010:WorkflowViewState.IdRef="Sequence_107">
                     <sap:WorkflowViewStateService.ViewState>
@@ -2209,7 +2209,7 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
               </ui:CommentOut>
-              <Assign DisplayName="Assign - For sharepoint" sap:VirtualizedContainerService.HintSize="641.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_27">
+              <Assign DisplayName="Assign - For sharepoint" sap:VirtualizedContainerService.HintSize="642,115" sap2010:WorkflowViewState.IdRef="Assign_27">
                 <Assign.To>
                   <OutArgument x:TypeArguments="x:String">[path_file_merge]</OutArgument>
                 </Assign.To>
@@ -2217,16 +2217,16 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                   <InArgument x:TypeArguments="x:String">[$"D:\\SharePoint\\DKSH\\SCM RPA - TEC\\SAP_COA\\COA\\{schedule_range_format}"]</InArgument>
                 </Assign.Value>
               </Assign>
-              <ui:FolderExistsX DisplayName="Folder Exists" Exists="[isfolder_mergeExist]" sap:VirtualizedContainerService.HintSize="641.6,166.4" sap2010:WorkflowViewState.IdRef="FolderExistsX_2" Path="[path_file_merge]" />
-              <If Condition="[isfolder_mergeExist]" sap:VirtualizedContainerService.HintSize="641.6,2064.8" sap2010:WorkflowViewState.IdRef="If_16">
+              <ui:FolderExistsX DisplayName="Folder Exists" Exists="[isfolder_mergeExist]" sap:VirtualizedContainerService.HintSize="642,167" sap2010:WorkflowViewState.IdRef="FolderExistsX_2" Path="[path_file_merge]" />
+              <If Condition="[isfolder_mergeExist]" sap:VirtualizedContainerService.HintSize="642,2299" sap2010:WorkflowViewState.IdRef="If_16">
                 <If.Then>
-                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="608,1648.8" sap2010:WorkflowViewState.IdRef="Sequence_96">
+                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="608,1883" sap2010:WorkflowViewState.IdRef="Sequence_96">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <Assign DisplayName="Assign - Get pdf file in folder" sap:VirtualizedContainerService.HintSize="545.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_26">
+                    <Assign DisplayName="Assign - Get pdf file in folder" sap:VirtualizedContainerService.HintSize="546,115" sap2010:WorkflowViewState.IdRef="Assign_26">
                       <Assign.To>
                         <OutArgument x:TypeArguments="s:String[]">[get_file_merge]</OutArgument>
                       </Assign.To>
@@ -2234,17 +2234,17 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                         <InArgument x:TypeArguments="s:String[]">[Directory.GetFiles(path_file_merge, "*.pdf")]</InArgument>
                       </Assign.Value>
                     </Assign>
-                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="545.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_64" Message="[&quot;File count = &quot; &amp; get_file_merge.Count]" />
-                    <If Condition="[get_file_merge.Count &gt;=1]" sap:VirtualizedContainerService.HintSize="545.6,1272" sap2010:WorkflowViewState.IdRef="If_17">
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="546,175" sap2010:WorkflowViewState.IdRef="LogMessage_64" Message="[&quot;File count = &quot; &amp; get_file_merge.Count]" />
+                    <If Condition="[get_file_merge.Count &gt;=1]" sap:VirtualizedContainerService.HintSize="546,1168" sap2010:WorkflowViewState.IdRef="If_17">
                       <If.Then>
-                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="512,856" sap2010:WorkflowViewState.IdRef="Sequence_99">
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="512,743" sap2010:WorkflowViewState.IdRef="Sequence_99">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               <x:Boolean x:Key="IsPinned">False</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:ForEachFileX DisplayName="For Each File in Folder" Filter="*.pdf" Folder="[path_file_merge]" sap:VirtualizedContainerService.HintSize="449.6,663.2" sap2010:WorkflowViewState.IdRef="ForEachFileX_7" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
+                          <ui:ForEachFileX DisplayName="For Each File in Folder" Filter="*.pdf" Folder="[path_file_merge]" sap:VirtualizedContainerService.HintSize="450,655" sap2010:WorkflowViewState.IdRef="ForEachFileX_7" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
                             <ui:ForEachFileX.Body>
                               <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
                                 <ActivityAction.Argument1>
@@ -2253,42 +2253,62 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                                 <ActivityAction.Argument2>
                                   <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
                                 </ActivityAction.Argument2>
-                                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,367.2" sap2010:WorkflowViewState.IdRef="Sequence_98">
+                                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,367" sap2010:WorkflowViewState.IdRef="Sequence_98">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="353.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_71" Message="[$&quot;Del... {CurrentFile}&quot;]" />
-                                  <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="353.6,104" sap2010:WorkflowViewState.IdRef="DeleteFileX_4" Path="[CurrentFile.FullName]" />
+                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="354,175" sap2010:WorkflowViewState.IdRef="LogMessage_71" Message="[$&quot;Del... {CurrentFile}&quot;]" />
+                                  <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="354,104" sap2010:WorkflowViewState.IdRef="DeleteFileX_4" Path="[CurrentFile.FullName]" />
                                 </Sequence>
                               </ActivityAction>
                             </ui:ForEachFileX.Body>
                           </ui:ForEachFileX>
-                          <ui:DeleteFileX DisplayName="Delete File - Flag file b4 run new job" sap:VirtualizedContainerService.HintSize="449.6,104" sap2010:WorkflowViewState.IdRef="DeleteFileX_5" Path="[$&quot;D:\\SharePoint\\DKSH\\SCM RPA - TEC\\SAP_COA\\COA\\{schedule_range_format}\DONE.flag&quot;]" />
                         </Sequence>
                       </If.Then>
                       <If.Else>
-                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,254.4" sap2010:WorkflowViewState.IdRef="Sequence_100">
+                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,254" sap2010:WorkflowViewState.IdRef="Sequence_100">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="353.6,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_69" Message="[&quot;Has folder but, have no files inside =&gt; Go on...&quot;]" />
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="354,166" sap2010:WorkflowViewState.IdRef="LogMessage_69" Message="[&quot;Has folder but, have no files inside =&gt; Go on...&quot;]" />
                         </Sequence>
                       </If.Else>
                     </If>
+                    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="546,337" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+                      <TryCatch.Try>
+                        <ui:DeleteFileX DisplayName="Delete File - Flag file b4 run new job" sap:VirtualizedContainerService.HintSize="334,81" sap2010:WorkflowViewState.IdRef="DeleteFileX_5" Path="[$&quot;D:\\SharePoint\\DKSH\\SCM RPA - TEC\\SAP_COA\\COA\\{schedule_range_format}\DONE.flag&quot;]" />
+                      </TryCatch.Try>
+                      <TryCatch.Catches>
+                        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404,23" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ActivityAction x:TypeArguments="s:Exception">
+                            <ActivityAction.Argument>
+                              <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                            </ActivityAction.Argument>
+                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,143" sap2010:WorkflowViewState.IdRef="LogMessage_88" Message="[&quot;Error del DONE.flag =&gt; e: &quot; &amp; exception.Message]" />
+                          </ActivityAction>
+                        </Catch>
+                      </TryCatch.Catches>
+                    </TryCatch>
                   </Sequence>
                 </If.Then>
                 <If.Else>
-                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,254.4" sap2010:WorkflowViewState.IdRef="Sequence_97">
+                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,254" sap2010:WorkflowViewState.IdRef="Sequence_97">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="353.6,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_67" Message="[&quot;Folder doesn't exist =&gt; No need to del old merge file, Go on...&quot;]" />
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="354,166" sap2010:WorkflowViewState.IdRef="LogMessage_67" Message="[&quot;Folder doesn't exist =&gt; No need to del old merge file, Go on...&quot;]" />
                   </Sequence>
                 </If.Else>
               </If>
@@ -2304,10 +2324,10 @@ Select Group.First()).CopyToDataTable()]</InArgument>
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <av:Point x:Key="ShapeLocation">1115,275</av:Point>
-            <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
+            <av:Size x:Key="ShapeSize">110,70</av:Size>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Sequence DisplayName="Sequence - Read exc temp and write" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="Sequence_117">
+        <Sequence DisplayName="Sequence - Read exc temp and write" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_117">
           <Sequence.Variables>
             <Variable x:TypeArguments="sd1:DataTable" Name="err_template" />
             <Variable x:TypeArguments="x:String" Name="tmp_text" />
