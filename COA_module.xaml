@@ -8,7 +8,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1201,820</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1019,844.9999999999999</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -286,15 +286,15 @@
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1518,304" sap2010:WorkflowViewState.IdRef="CommentOut_14">
+          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1518,305" sap2010:WorkflowViewState.IdRef="CommentOut_14">
             <ui:CommentOut.Body>
-              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="496,193" sap2010:WorkflowViewState.IdRef="Sequence_88">
+              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="496,194" sap2010:WorkflowViewState.IdRef="Sequence_88">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Assign sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_5">
+                <Assign sap:VirtualizedContainerService.HintSize="434,106" sap2010:WorkflowViewState.IdRef="Assign_5">
                   <Assign.To>
                     <OutArgument x:TypeArguments="x:String">[folder_file_path]</OutArgument>
                   </Assign.To>
@@ -305,13 +305,13 @@
               </Sequence>
             </ui:CommentOut.Body>
           </ui:CommentOut>
-          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Resource Center | Home" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1518,4637" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="72a1c6b4-8ba4-45b3-9eac-e030a3706348" Version="V2">
+          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Resource Center | Home" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1518,5492" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="72a1c6b4-8ba4-45b3-9eac-e030a3706348" Version="V2">
             <uix:NApplicationCard.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Do - Chrome main" sap:VirtualizedContainerService.HintSize="1484,4388" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                <Sequence DisplayName="Do - Chrome main" sap:VirtualizedContainerService.HintSize="1484,5242" sap2010:WorkflowViewState.IdRef="Sequence_7">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:Boolean" Name="isLogin" />
                   </Sequence.Variables>
@@ -321,7 +321,7 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                   <ui:MaximizeWindow Window="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="1422,57" sap2010:WorkflowViewState.IdRef="MaximizeWindow_2" />
-                  <uix:NCheckState DisplayName="Check App State 'Account'" Exists="[isLogin]" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1422,509" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="72a1c6b4-8ba4-45b3-9eac-e030a3706348" Timeout="20" Version="V3">
+                  <uix:NCheckState DisplayName="Check App State 'Account'" Exists="[isLogin]" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1422,511" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="72a1c6b4-8ba4-45b3-9eac-e030a3706348" Timeout="20" Version="V3">
                     <uix:NCheckState.IfExists>
                       <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,260" sap2010:WorkflowViewState.IdRef="Sequence_8">
                         <sap:WorkflowViewStateService.ViewState>
@@ -358,7 +358,7 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </uix:NCheckState>
-                  <If Condition="[isLogin]" sap:VirtualizedContainerService.HintSize="1422,3568" sap2010:WorkflowViewState.IdRef="If_1">
+                  <If Condition="[isLogin]" sap:VirtualizedContainerService.HintSize="1422,3584" sap2010:WorkflowViewState.IdRef="If_1">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -366,30 +366,30 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                     <If.Then>
-                      <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,201" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                      <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,202" sap2010:WorkflowViewState.IdRef="Sequence_12">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="354,113" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[&quot;isLogin == &quot; &amp;  isLogin]" />
+                        <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="354,114" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[&quot;isLogin == &quot; &amp;  isLogin]" />
                       </Sequence>
                     </If.Then>
                     <If.Else>
-                      <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="1388,3197" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                      <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="1388,3211" sap2010:WorkflowViewState.IdRef="Sequence_10">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <Sequence DisplayName="LOGIN" sap:VirtualizedContainerService.HintSize="1326,3109" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                        <Sequence DisplayName="LOGIN" sap:VirtualizedContainerService.HintSize="1326,3123" sap2010:WorkflowViewState.IdRef="Sequence_14">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               <x:Boolean x:Key="IsPinned">False</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Log in'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1264,225" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="72a1c6b4-8ba4-45b3-9eac-e030a3706348" Version="V3">
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Log in'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1264,227" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="72a1c6b4-8ba4-45b3-9eac-e030a3706348" Version="V3">
                             <uix:NClick.Target>
                               <uix:TargetAnchorable BrowserURL="https://resourcecenter.biomerieux.com/" CVScreenId="095a54d7-c106-48ad-82df-c72629df5062" CvElementArea="1730, 110, 46, 47" CvType="Icon" DesignTimeRectangle="1731, 113, 42, 42" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;div' parentid='detail' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='detail' tag='DIV' class='rounded-image shadow-box' aaname='' /&gt;" Guid="b70d3e1b-c5ff-4212-8f11-2ff6f213948e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAYAAABXuSs3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAS3SURBVGhD1ZpdaB1FFMdHEF8lEPDNZ181RaVW0+8SqVbfxBdRCFJKk37YD9KaQEvTFtEHW0GQ2zxY86Qv1fRBkEBKErWlKZGGlhaSpmKpmubm8ya5SU73P5mznLuZ2Z3dm3urfzjZuzN75vzm7Hzs3RtVLBYJtrCwoG1+fl7b3NwcFQoFbbOzszQzM6Ntenpa29TUlLbJycnQJiYmYk1ey/7cHrePWBwXDMzDfMyrwSU0LmZoNMLQNmAJlc/nS2x8fFxbtFz6uDrAcRmeOyDhVRw0Z8EFLGFwHXzR1uLiIi0vL2vDZ5ShDtdE/WDRDnDcOHgN7oLmLNiAUQY/wKUVfOCLNmwd4Lhx8CoOGo1IaA4Cx7US2pJt27Jvgw/BbdBoRGYa11VKaJvjcFwXvAaPg0YjyAQME6LSQgye0NwBF7xKgsYRE6xaQiwZ2wXvBIcjjktLS6bJ6gkxJYMV3JVt3LJqZjoqHjaurCsbNHq6litHVoHBNmRWgTM0yv4rAgvDy6yraLZxe3zGdWG+SFcG71H3jWHqHgjMcbzz55jxyCaw2IZMCM7Z9lmr+26OUs2uM6Q2tyXa3nOXjVd2gSmadSWzDfPZwus+/toKabOm8+WDgyk61jV4mmxDte+e1VC5y9dNSeUVzbribKPQd81+EuBgk1kPwWG+ygKeny7QP/nyVivmDMHRE6yNvqp9Jz348INxev69L+j2/X9NSXqBEawaHD3ASZoNJ0vGAQ6fZ99qp1+H7pvSdJIbUgie5umvHHDYM9tP0A89Q6bGX2BcBe47MaFywWFPbWmj051XTK2f5AQNwdMoOsZ7Bkeofn8H1e+74Dy+suebEnC2xs8v0aJn0uR6rsGxpab57riS8dYQHLcd5yswOLL5nbd/16PbSdIq8NRDZdcpUhuPU67rmj4fGvmb2jp+ibXmc12BzzFhx/Vx3/muILZf0qxDJdXkfPskqTeOBuBXTUmyhh880j7a6o/S05ta6OLPA6bWT9bJmWo53Bnc4tcPUe6n301JsjT4hkPar6ahlXr/GDE1/ipZDjNtQG9+Suq1AwH4b6YkWcN/jWmfF94/oz9nUckGhD/oAcxXtQ0tpNY3U+7HflOSLMBubfqKpmazv+JgzhJw9MR3gtbuOELq1T2Uu9RnSpI1t1D0noQ2yYmpwTM91m77hNTLuwPwXlNSea16rMUfOVx81vPndhwkta6RDn/5PXVfuxVrd0YfGq/sAhPzgVWDR7+64fVWktZ/GKzjdR+ReimwhGPTZ53GK7vAJLNd8p1TjvWkrPcP3qWa+t2kXvwg0fae/dZ4ZZPcLTnbGtz2esJ3rFdD0bENVv16QoLLrKfZSSsluVPKbGtwLOou+Cf5Cg6xXdBgtr70ZHAc0zx8rZUQkxls0LFvayV8NYcNZzou2xocgz8JHs/raR7CsgoxECsJGsyJP6WgAe4A6nw2qLRCm2ibgZOg9U8pDO6Cj2Yf5rNJ+Yo3F4ZmYBd0CI7bEwfvyj7Oyxk+8EUbDCyhOa4LGr5l/0CLMYl6+GNiYUWQwwmfUYY6XIM25DiWwAzNcV3QGhwrRhy8LfvRDnAn2AAmTdZJnygwQ3NcFzSY/6f/hFCkx564N87Kku0iAAAAAElFTkSuQmCC" InformativeScreenshot="2f0167e0802340570ee4230afd3c29f9.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Resource Center | Home' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
                                 <uix:TargetAnchorable.Anchors>
@@ -416,15 +416,15 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </uix:NClick>
-                          <uix:NCheckState DisplayName="Check App State 'Email' - LOGIN" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1264,2773" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="72a1c6b4-8ba4-45b3-9eac-e030a3706348" Timeout="15" Version="V3">
+                          <uix:NCheckState DisplayName="Check App State 'Email' - LOGIN" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1264,2785" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="72a1c6b4-8ba4-45b3-9eac-e030a3706348" Timeout="15" Version="V3">
                             <uix:NCheckState.IfExists>
-                              <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="760,2533" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                              <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="760,2543" sap2010:WorkflowViewState.IdRef="Sequence_11">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="698,175" sap2010:WorkflowViewState.IdRef="LogMessage_7" Message="[&quot;found login area :-D&quot;]" />
+                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="698,177" sap2010:WorkflowViewState.IdRef="LogMessage_7" Message="[&quot;found login area :-D&quot;]" />
                                 <Sequence DisplayName="Read COA user  pass web" sap:VirtualizedContainerService.HintSize="698,1253" sap2010:WorkflowViewState.IdRef="Sequence_138">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -492,7 +492,7 @@
                                   </ueab:ExcelProcessScopeX>
                                   <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="636,116" sap2010:WorkflowViewState.IdRef="WriteLine_6" Text="[&quot;Update usder =&gt; &quot; &amp; user_coa &amp; vbCrLf &amp; pass_coa]" />
                                 </Sequence>
-                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Email*'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="698,286" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="Simulate" ScopeIdentifier="72a1c6b4-8ba4-45b3-9eac-e030a3706348" Text="[user_coa_update]" Version="V3">
+                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Email*'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="698,288" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="Simulate" ScopeIdentifier="72a1c6b4-8ba4-45b3-9eac-e030a3706348" Text="[user_coa_update]" Version="V3">
                                   <uix:NTypeInto.Target>
                                     <uix:TargetAnchorable BrowserURL="https://login.biomerieux.com/resourcecenter/loginPage.html?gig_client_id=fVnMbfOu0stXLvfHShU4uApX" CVScreenId="1409f633-f550-47c7-b815-c09cd926319c" CvElementArea="1015, 391, 364, 46" CvType="InputBox" DesignTimeRectangle="1016, 393, 362, 43" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='gigya-loginID-34137548704270960' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='gigya-loginID-34137548704270960' tag='INPUT' type='text' class='gigya-input-text' placeholder='Email *' aaname='Email*' /&gt;" Guid="615db08f-5e15-4e34-8456-5c743fbbec28" InformativeScreenshot="9846ed9d3de9f189b0611a4f36f01e21.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login - bioMérieux' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
                                       <uix:TargetAnchorable.Anchors>
@@ -513,7 +513,7 @@
                                     </uix:VerifyExecutionTypeIntoOptions>
                                   </uix:NTypeInto.VerifyOptions>
                                 </uix:NTypeInto>
-                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Password*'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="698,286" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="Simulate" ScopeIdentifier="72a1c6b4-8ba4-45b3-9eac-e030a3706348" Text="[pass_coa_update]" Version="V3">
+                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Password*'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="698,288" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="Simulate" ScopeIdentifier="72a1c6b4-8ba4-45b3-9eac-e030a3706348" Text="[pass_coa_update]" Version="V3">
                                   <uix:NTypeInto.Target>
                                     <uix:TargetAnchorable BrowserURL="https://login.biomerieux.com/resourcecenter/loginPage.html?gig_client_id=fVnMbfOu0stXLvfHShU4uApX" CVScreenId="1409f633-f550-47c7-b815-c09cd926319c" CvElementArea="1015, 477, 364, 45" CvType="InputBox" DesignTimeRectangle="1016, 478, 362, 43" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl id='gigya-password-103909180760760480' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='gigya-password-103909180760760480' tag='INPUT' type='password' class='gigya-input-password' placeholder='Password *' aaname='Password*' /&gt;" Guid="3c61ebb0-337e-42de-8244-49fb4d9d8a85" InformativeScreenshot="d993460ab656b6c515e936830832a196.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login - bioMérieux' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
                                       <uix:TargetAnchorable.Anchors>
@@ -534,7 +534,7 @@
                                     </uix:VerifyExecutionTypeIntoOptions>
                                   </uix:NTypeInto.VerifyOptions>
                                 </uix:NTypeInto>
-                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Keep me logged-in'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="698,225" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="72a1c6b4-8ba4-45b3-9eac-e030a3706348" Version="V3">
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Keep me logged-in'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="698,227" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="72a1c6b4-8ba4-45b3-9eac-e030a3706348" Version="V3">
                                   <uix:NClick.Target>
                                     <uix:TargetAnchorable BrowserURL="https://login.biomerieux.com/resourcecenter/loginPage.html?gig_client_id=fVnMbfOu0stXLvfHShU4uApX" CVScreenId="1409f633-f550-47c7-b815-c09cd926319c" CvElementArea="1014, 539, 17, 17" CvType="CheckBox" DesignTimeRectangle="1016, 541, 13, 13" DesignTimeScaleFactor="1" ElementType="CheckBox" FullSelectorArgument="&lt;webctrl id='gigya-checkbox-remember' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='gigya-checkbox-remember' tag='INPUT' type='checkbox' class='gigya-input-checkbox' aaname='                                     Keep me logged-in                                     *                                 ' /&gt;" Guid="288baacb-d6f4-42d5-96d2-12fc83922aa3" InformativeScreenshot="c3224fd0ddc352a36af159a889857557.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login - bioMérieux' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
                                       <uix:TargetAnchorable.Anchors>
@@ -555,7 +555,7 @@
                                     </uix:VerifyExecutionOptions>
                                   </uix:NClick.VerifyOptions>
                                 </uix:NClick>
-                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Login'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="698,218" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="WindowMessages" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="72a1c6b4-8ba4-45b3-9eac-e030a3706348" Version="V3">
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Login'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="698,220" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="WindowMessages" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="72a1c6b4-8ba4-45b3-9eac-e030a3706348" Version="V3">
                                   <uix:NClick.Target>
                                     <uix:TargetAnchorable BrowserURL="https://login.biomerieux.com/resourcecenter/loginPage.html?gig_client_id=fVnMbfOu0stXLvfHShU4uApX" CVScreenId="1409f633-f550-47c7-b815-c09cd926319c" CvElementArea="1069, 572, 255, 50" CvTextArea="1178, 590, 36, 16" CvTextArgument="Login" CvType="Button" DesignTimeRectangle="1072, 574, 250, 47" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl parentid='gigya-login-form' tag='INPUT' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='gigya-login-form' tag='INPUT' type='submit' class='gigya-input-submit' aaname='Login' check:text='Login' /&gt;" Guid="e8395656-6cf0-4270-9dc1-ef004414e37d" InformativeScreenshot="fdacfad781d92a5028091ec849afa75e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login - bioMérieux' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
                                       <uix:TargetAnchorable.PointOffset>
@@ -577,13 +577,13 @@
                               </Sequence>
                             </uix:NCheckState.IfExists>
                             <uix:NCheckState.IfNotExists>
-                              <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,258" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                              <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,260" sap2010:WorkflowViewState.IdRef="Sequence_13">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,168" sap2010:WorkflowViewState.IdRef="LogMessage_8" Message="[&quot;NOT FOUND: Enter email&amp;password&quot;]" />
+                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,170" sap2010:WorkflowViewState.IdRef="LogMessage_8" Message="[&quot;NOT FOUND: Enter email&amp;password&quot;]" />
                               </Sequence>
                             </uix:NCheckState.IfNotExists>
                             <uix:NCheckState.Target>
@@ -606,7 +606,7 @@
                       </Sequence>
                     </If.Else>
                   </If>
-                  <uix:NCheckState DisplayName="Check App State 'eIFU Search by Lot #'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1112,57" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="72a1c6b4-8ba4-45b3-9eac-e030a3706348" Timeout="30" Version="V3">
+                  <uix:NCheckState DisplayName="Check App State 'eIFU Search by Lot #'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1422,893" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="72a1c6b4-8ba4-45b3-9eac-e030a3706348" Timeout="30" Version="V3">
                     <uix:NCheckState.IfExists>
                       <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="496,602" sap2010:WorkflowViewState.IdRef="Sequence_15">
                         <sap:WorkflowViewStateService.ViewState>
@@ -681,12 +681,12 @@
                     </uix:NCheckState.Target>
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </uix:NCheckState>
-                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1112,57" sap2010:WorkflowViewState.IdRef="CommentOut_3">
+                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1422,57" sap2010:WorkflowViewState.IdRef="CommentOut_3">
                     <ui:CommentOut.Body>
                       <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,136" sap2010:WorkflowViewState.IdRef="Sequence_36">
                         <sap:WorkflowViewStateService.ViewState>
@@ -771,7 +771,7 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:CommentOut>
-                  <ui:CommentOut DisplayName="Comment Out - logout action" sap:VirtualizedContainerService.HintSize="1112,50" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                  <ui:CommentOut DisplayName="Comment Out - logout action" sap:VirtualizedContainerService.HintSize="1422,50" sap2010:WorkflowViewState.IdRef="CommentOut_1">
                     <ui:CommentOut.Body>
                       <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="512,417" sap2010:WorkflowViewState.IdRef="Sequence_20">
                         <sap:WorkflowViewStateService.ViewState>
@@ -829,7 +829,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </uix:NApplicationCard>
-          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1208,57" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1518,57" sap2010:WorkflowViewState.IdRef="CommentOut_2">
             <ui:CommentOut.Body>
               <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="512,435" sap2010:WorkflowViewState.IdRef="Sequence_31">
                 <sap:WorkflowViewStateService.ViewState>
@@ -865,7 +865,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ui:CommentOut>
-          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1208,164" sap2010:WorkflowViewState.IdRef="LogMessage_11" Message="[&quot;END PROCESS - Out of web scope&quot;]" />
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1518,166" sap2010:WorkflowViewState.IdRef="LogMessage_11" Message="[&quot;END PROCESS - Out of web scope&quot;]" />
         </Sequence>
         <FlowStep.Next>
           <FlowDecision x:Name="__ReferenceID0" Condition="[isReadyType]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="59,59" sap2010:WorkflowViewState.IdRef="FlowDecision_1">
@@ -886,7 +886,7 @@
                     <av:Size x:Key="ShapeSize">110,70</av:Size>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Sequence DisplayName="Download and manage file" sap:VirtualizedContainerService.HintSize="1438,18779" sap2010:WorkflowViewState.IdRef="Sequence_37">
+                <Sequence DisplayName="Download and manage file" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_37">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:String" Name="mock_lot" />
                     <Variable x:TypeArguments="x:String" Name="folder_file_path_split_scope" />
@@ -1009,7 +1009,7 @@
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="353.6,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_75" Message="[$&quot;D:\\SharePoint\\DKSH\\SCM RPA - TEC\\SAP_COA\\COA\\{schedule_range_format}&quot; &amp; &quot;=&gt; Exist&quot;]" />
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="354,166" sap2010:WorkflowViewState.IdRef="LogMessage_75" Message="[$&quot;D:\\SharePoint\\DKSH\\SCM RPA - TEC\\SAP_COA\\COA\\{schedule_range_format}&quot; &amp; &quot;=&gt; Exist&quot;]" />
                         </Sequence>
                       </If.Then>
                       <If.Else>
@@ -1019,8 +1019,8 @@
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:CreateDirectory ContinueOnError="{x:Null}" Output="{x:Null}" DisplayName="Create Folder" sap:VirtualizedContainerService.HintSize="353.6,112.8" sap2010:WorkflowViewState.IdRef="CreateDirectory_3" Path="[$&quot;D:\\SharePoint\\DKSH\\SCM RPA - TEC\\SAP_COA\\COA\\{schedule_range_format}&quot;]" />
-                          <Delay Duration="00:00:01.0010000" sap:VirtualizedContainerService.HintSize="353.6,113.6" sap2010:WorkflowViewState.IdRef="Delay_8" />
+                          <ui:CreateDirectory ContinueOnError="{x:Null}" Output="{x:Null}" DisplayName="Create Folder" sap:VirtualizedContainerService.HintSize="354,113" sap2010:WorkflowViewState.IdRef="CreateDirectory_3" Path="[$&quot;D:\\SharePoint\\DKSH\\SCM RPA - TEC\\SAP_COA\\COA\\{schedule_range_format}&quot;]" />
+                          <Delay Duration="00:00:01.0010000" sap:VirtualizedContainerService.HintSize="354,114" sap2010:WorkflowViewState.IdRef="Delay_8" />
                         </Sequence>
                       </If.Else>
                     </If>
@@ -1161,7 +1161,7 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                                               <OutArgument x:TypeArguments="x:String">[batch_no]</OutArgument>
                                             </Assign.To>
                                             <Assign.Value>
-                                              <InArgument x:TypeArguments="x:String">[CurrentRow.Field(Of String)("Batch No.").ToString]</InArgument>
+                                              <InArgument x:TypeArguments="x:String">[CurrentRow("Batch No.").ToString()]</InArgument>
                                             </Assign.Value>
                                           </Assign>
                                           <Assign sap:VirtualizedContainerService.HintSize="1088,115" sap2010:WorkflowViewState.IdRef="Assign_12">
@@ -1169,7 +1169,7 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                                               <OutArgument x:TypeArguments="x:String">[excel_old_mat]</OutArgument>
                                             </Assign.To>
                                             <Assign.Value>
-                                              <InArgument x:TypeArguments="x:String">[CurrentRow.Field(Of String)("Old material number").ToString]</InArgument>
+                                              <InArgument x:TypeArguments="x:String">[CurrentRow("Old material number").ToString()]</InArgument>
                                             </Assign.Value>
                                           </Assign>
                                           <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1088,57" sap2010:WorkflowViewState.IdRef="CommentOut_8">
@@ -1374,7 +1374,14 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                                                                       <ActivityAction.Argument>
                                                                         <DelegateInArgument x:TypeArguments="s:ArgumentException" Name="exception" />
                                                                       </ActivityAction.Argument>
-                                                                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,143" sap2010:WorkflowViewState.IdRef="LogMessage_89" Message="[&quot;Error doc Num = &quot; &amp; exception.Message]" />
+                                                                      <Sequence sap:VirtualizedContainerService.HintSize="416,256" sap2010:WorkflowViewState.IdRef="Sequence_144">
+                                                                        <sap:WorkflowViewStateService.ViewState>
+                                                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                          </scg:Dictionary>
+                                                                        </sap:WorkflowViewStateService.ViewState>
+                                                                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="354,168" sap2010:WorkflowViewState.IdRef="LogMessage_89" Level="Error" Message="[&quot;Error doc Num = &quot; &amp; exception.Message]" />
+                                                                      </Sequence>
                                                                     </ActivityAction>
                                                                   </Catch>
                                                                 </TryCatch.Catches>
@@ -2033,7 +2040,7 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                         <InArgument x:TypeArguments="x:Int32">[System.IO.Directory.GetFiles(folder_file_path_split_scope).Length]</InArgument>
                       </Assign.Value>
                     </Assign>
-                    <Assign sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="Assign_39">
+                    <Assign sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="Assign_52">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:String">[time_in_total]</OutArgument>
                       </Assign.To>
@@ -2220,13 +2227,13 @@ Select Group.First()).CopyToDataTable()]</InArgument>
             <av:PointCollection x:Key="ConnectorLocation">325.4,170.2 340.2,170.2 340.2,255</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Sequence DisplayName="Var init" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_85">
+        <Sequence DisplayName="Var init" sap:VirtualizedContainerService.HintSize="496,713.9999999999999" sap2010:WorkflowViewState.IdRef="Sequence_85">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_21">
+          <Assign sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="Assign_21">
             <Assign.To>
               <OutArgument x:TypeArguments="x:String">[date_now_folder_fm]</OutArgument>
             </Assign.To>
@@ -2234,7 +2241,7 @@ Select Group.First()).CopyToDataTable()]</InArgument>
               <InArgument x:TypeArguments="x:String">[DateTime.Now.ToString("yyyy_MM_dd")]</InArgument>
             </Assign.Value>
           </Assign>
-          <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_22">
+          <Assign sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="Assign_22">
             <Assign.To>
               <OutArgument x:TypeArguments="x:String">[date_now_sap_fm]</OutArgument>
             </Assign.To>
@@ -2242,7 +2249,7 @@ Select Group.First()).CopyToDataTable()]</InArgument>
               <InArgument x:TypeArguments="x:String">[DateTime.Now.ToString("dd.MM.yyyy")]</InArgument>
             </Assign.Value>
           </Assign>
-          <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_51">
+          <Assign sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="Assign_53">
             <Assign.To>
               <OutArgument x:TypeArguments="x:String">[schedule_range_format]</OutArgument>
             </Assign.To>
@@ -2250,8 +2257,8 @@ Select Group.First()).CopyToDataTable()]</InArgument>
               <InArgument x:TypeArguments="x:String">[in_sapflow_start_time.AddHours(-1).ToString("HH:mm").Replace(":", "") &amp; "_" &amp; in_sapflow_end_time.AddHours(-1).ToString("HH:mm").Replace(":", "")]</InArgument>
             </Assign.Value>
           </Assign>
-          <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="434,122" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="New branch SCM ADMIN 03" />
-          <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="434,156" sap2010:WorkflowViewState.IdRef="SendHotkey_1" Key="d" KeyModifiers="Win">
+          <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="434,123" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="New branch SCM ADMIN 03" />
+          <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="434,158" sap2010:WorkflowViewState.IdRef="SendHotkey_1" Key="d" KeyModifiers="Win">
             <ui:SendHotkey.Target>
               <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="3578eade-1f9d-4505-bc46-b302eed3ea2b">
                 <ui:Target.TimeoutMS>

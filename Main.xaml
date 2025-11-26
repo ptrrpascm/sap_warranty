@@ -157,7 +157,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Flowchart sap:VirtualizedContainerService.HintSize="1182,786" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+    <Flowchart sap:VirtualizedContainerService.HintSize="1261,786" sap2010:WorkflowViewState.IdRef="Flowchart_1">
       <Flowchart.Variables>
         <Variable x:TypeArguments="x:String" Name="mindate_format" />
         <Variable x:TypeArguments="x:String" Name="txt_trim287" />
@@ -812,7 +812,7 @@
                             <av:PointCollection x:Key="ConnectorLocation">730,405 730,434.99999999999994 310,434.99999999999994 310,495</av:PointCollection>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <Sequence sap2010:Annotation.AnnotationText="- Excel path ด้านในมีการ config date&#xA;ดูว่าใช่ Today หรือเปล่า" DisplayName="Excel - Clipboard" sap:VirtualizedContainerService.HintSize="698,2606" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                        <Sequence sap2010:Annotation.AnnotationText="- Excel path ด้านในมีการ config date&#xA;ดูว่าใช่ Today หรือเปล่า" DisplayName="Excel - Clipboard" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_19">
                           <Sequence.Variables>
                             <Variable x:TypeArguments="x:String" Name="path_d_config" />
                             <Variable x:TypeArguments="x:String" Name="path_d_today" />
@@ -6717,7 +6717,7 @@
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Assign sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_80">
+          <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_80">
             <Assign.To>
               <OutArgument x:TypeArguments="sd1:Stopwatch">[stopWatch]</OutArgument>
             </Assign.To>
@@ -6725,7 +6725,7 @@
               <InArgument x:TypeArguments="sd1:Stopwatch">[System.Diagnostics.Stopwatch.StartNew()]</InArgument>
             </Assign.Value>
           </Assign>
-          <Assign DisplayName="DateNow global" sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_45">
+          <Assign DisplayName="DateNow global" sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_45">
             <Assign.To>
               <OutArgument x:TypeArguments="x:String">[date_now_global_SAP_format]</OutArgument>
             </Assign.To>
@@ -6738,7 +6738,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </Assign>
-          <Assign DisplayName="DateNow global" sap:VirtualizedContainerService.HintSize="433.6,104.8" sap2010:WorkflowViewState.IdRef="Assign_46">
+          <Assign DisplayName="DateNow global" sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_46">
             <Assign.To>
               <OutArgument x:TypeArguments="x:String">[date_now_global_Folder_format]</OutArgument>
             </Assign.To>
