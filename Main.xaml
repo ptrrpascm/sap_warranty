@@ -255,7 +255,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
               <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[&quot;Accass SAP start : Completed&quot;]" />
-              <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="SAP_Credential_CHIN_Prod" CacheStrategy="None" DisplayName="Get Credential" sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[Password]" Username="[Username]" />
+              <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="SAP_Credential_beam_Prod" CacheStrategy="None" DisplayName="Get Credential" sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[Password]" Username="[Username]" />
               <ucas:Logon ConnectionName="[SapConnection]" DelayBetweenRetries="500" DisplayName="SAP Logon" sap:VirtualizedContainerService.HintSize="450,170" sap2010:WorkflowViewState.IdRef="Logon_1" Retries="5" SAPLogonPath="C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe" Window="[SapLogOn]" />
               <ucas:Login Password="{x:Null}" Client="300" DisplayName="SAP Login" sap:VirtualizedContainerService.HintSize="450,377" sap2010:WorkflowViewState.IdRef="Login_1" IsSecure="True" Language="EN" MultiLogonOptionToChoose="Single" SecurePassword="[Password]" Timeout="5000" Username="[Username]" Window="[SAPWindow]">
                 <ucas:Login.Target>
