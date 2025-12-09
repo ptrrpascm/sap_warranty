@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Resource Center  Search ~ EIFU",
+  "Type": "Screen",
+  "Id": "wucxyQpJoka2_dLh2t0E_w",
+  "Reference": "sy1sJIwqUUS3hIckUH9CAA/wucxyQpJoka2_dLh2t0E_w",
+  "ParentRef": "sy1sJIwqUUS3hIckUH9CAA/819YQDih0k2g2pYK7BDFlw",
+  "Created": "2025-12-09T06:53:32.6545024Z",
+  "Updated": "2025-12-09T06:53:32.6545024Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.6.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

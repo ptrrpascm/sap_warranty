@@ -8,7 +8,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1007,845</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1201,820</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -889,7 +889,7 @@
                     <av:Size x:Key="ShapeSize">110,70</av:Size>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Sequence DisplayName="Cart DownLoad zip and merge" sap:VirtualizedContainerService.HintSize="1438,7350" sap2010:WorkflowViewState.IdRef="Sequence_145">
+                <Sequence DisplayName="Cart DownLoad zip and merge" sap:VirtualizedContainerService.HintSize="1588,18471" sap2010:WorkflowViewState.IdRef="Sequence_145">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:String" Name="mock_lot" />
                     <Variable x:TypeArguments="x:String" Name="folder_file_path_split_scope" />
@@ -914,15 +914,15 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1376,175" sap2010:WorkflowViewState.IdRef="LogMessage_92" Message="[&quot;READY !&quot;]">
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1526,175" sap2010:WorkflowViewState.IdRef="LogMessage_92" Message="[&quot;READY !&quot;]">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:LogMessage>
-                  <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="1376,123" sap2010:WorkflowViewState.IdRef="WriteLine_7" Text="[&quot;Format schedule =&gt; &quot; &amp; schedule_range_format]" />
-                  <Assign sap2010:Annotation.AnnotationText="# Notice this block can be config date for test make sure use the right folder&#xD;&#xA;&gt; Prd {date_now_folder_fm}&#xA;&gt; Manual 2025_12_09" sap:VirtualizedContainerService.HintSize="1376,191" sap2010:WorkflowViewState.IdRef="Assign_54">
+                  <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="1526,123" sap2010:WorkflowViewState.IdRef="WriteLine_7" Text="[&quot;Format schedule =&gt; &quot; &amp; schedule_range_format]" />
+                  <Assign sap2010:Annotation.AnnotationText="# Notice this block can be config date for test make sure use the right folder&#xA;&gt; Prd {date_now_folder_fm}&#xA;&gt; Manual 2025_12_09" sap:VirtualizedContainerService.HintSize="1526,191" sap2010:WorkflowViewState.IdRef="Assign_54">
                     <Assign.To>
                       <OutArgument x:TypeArguments="x:String">[folder_file_path_split_scope]</OutArgument>
                     </Assign.To>
@@ -935,7 +935,7 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </Assign>
-                  <Assign sap:VirtualizedContainerService.HintSize="1376,115" sap2010:WorkflowViewState.IdRef="Assign_55">
+                  <Assign sap:VirtualizedContainerService.HintSize="1526,115" sap2010:WorkflowViewState.IdRef="Assign_55">
                     <Assign.To>
                       <OutArgument x:TypeArguments="x:String">[mock_lot]</OutArgument>
                     </Assign.To>
@@ -943,7 +943,7 @@
                       <InArgument x:TypeArguments="x:String">407901b</InArgument>
                     </Assign.Value>
                   </Assign>
-                  <Assign sap:VirtualizedContainerService.HintSize="1376,115" sap2010:WorkflowViewState.IdRef="Assign_56">
+                  <Assign sap:VirtualizedContainerService.HintSize="1526,115" sap2010:WorkflowViewState.IdRef="Assign_56">
                     <Assign.To>
                       <OutArgument x:TypeArguments="x:String">[path_chrome_dl]</OutArgument>
                     </Assign.To>
@@ -951,7 +951,7 @@
                       <InArgument x:TypeArguments="x:String">[$"C:\Buffer_uipath\cer_download\"]</InArgument>
                     </Assign.Value>
                   </Assign>
-                  <ui:CommentOut DisplayName="Check folder merge on LOCAL" sap:VirtualizedContainerService.HintSize="1376,136" sap2010:WorkflowViewState.IdRef="CommentOut_22">
+                  <ui:CommentOut DisplayName="Check folder merge on LOCAL" sap:VirtualizedContainerService.HintSize="1526,136" sap2010:WorkflowViewState.IdRef="CommentOut_22">
                     <ui:CommentOut.Body>
                       <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_156">
                         <sap:WorkflowViewStateService.ViewState>
@@ -1000,7 +1000,7 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:CommentOut>
-                  <Sequence DisplayName="Check folder cloud isExist" sap:VirtualizedContainerService.HintSize="1376,1193" sap2010:WorkflowViewState.IdRef="Sequence_159">
+                  <Sequence DisplayName="Check folder cloud isExist" sap:VirtualizedContainerService.HintSize="1526,1193" sap2010:WorkflowViewState.IdRef="Sequence_159">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1033,19 +1033,19 @@
                       </If.Else>
                     </If>
                   </Sequence>
-                  <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Resource Center | Search ~ EIFU" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1376,2910" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" ScopeGuid="48f9d9f4-0fc2-4510-9709-c832b69cb65e" Version="V2">
+                  <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Resource Center  Search ~ EIFU" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1526,14031" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" ScopeGuid="48f9d9f4-0fc2-4510-9709-c832b69cb65e" Version="V2">
                     <uix:NApplicationCard.Body>
                       <ActivityAction x:TypeArguments="x:Object">
                         <ActivityAction.Argument>
                           <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                         </ActivityAction.Argument>
-                        <Sequence DisplayName="Do - chorm" sap:VirtualizedContainerService.HintSize="704,2660" sap2010:WorkflowViewState.IdRef="Sequence_199">
+                        <Sequence DisplayName="Do - chorm" sap:VirtualizedContainerService.HintSize="1492,13781" sap2010:WorkflowViewState.IdRef="Sequence_199">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:ForEachFileX DisplayName="For Each File in Folder" Filter="*.xlsx" Folder="[folder_file_path_split_scope]" sap:VirtualizedContainerService.HintSize="642,2570" sap2010:WorkflowViewState.IdRef="ForEachFileX_12" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
+                          <ui:ForEachFileX DisplayName="For Each File in Folder" Filter="*.xlsx" Folder="[folder_file_path_split_scope]" sap:VirtualizedContainerService.HintSize="1430,13691" sap2010:WorkflowViewState.IdRef="ForEachFileX_12" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
                             <ui:ForEachFileX.Body>
                               <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
                                 <ActivityAction.Argument1>
@@ -1054,7 +1054,7 @@
                                 <ActivityAction.Argument2>
                                   <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
                                 </ActivityAction.Argument2>
-                                <Sequence DisplayName="Do - For each file" sap:VirtualizedContainerService.HintSize="608,2278" sap2010:WorkflowViewState.IdRef="Sequence_146">
+                                <Sequence DisplayName="Do - For each file" sap:VirtualizedContainerService.HintSize="1396,13399" sap2010:WorkflowViewState.IdRef="Sequence_146">
                                   <Sequence.Variables>
                                     <Variable x:TypeArguments="sd1:DataTable" Name="excel_to_dt" />
                                     <Variable x:TypeArguments="x:String" Name="capDocSearch" />
@@ -1073,9 +1073,9 @@
                                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="546,177" sap2010:WorkflowViewState.IdRef="LogMessage_96" Message="[&quot;File =&gt; &quot; &amp; CurrentFile.Name &amp; &quot; START&quot;]" />
-                                  <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[excel_to_dt]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="546,120" sap2010:WorkflowViewState.IdRef="ReadRange_6" SheetName="Sheet1" WorkbookPath="[CurrentFile.FullName]" />
-                                  <Assign sap:VirtualizedContainerService.HintSize="546,116" sap2010:WorkflowViewState.IdRef="Assign_57">
+                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1334,177" sap2010:WorkflowViewState.IdRef="LogMessage_96" Message="[&quot;File =&gt; &quot; &amp; CurrentFile.Name &amp; &quot; START&quot;]" />
+                                  <ui:ReadRange Range="{x:Null}" AddHeaders="True" DataTable="[excel_to_dt]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="1334,120" sap2010:WorkflowViewState.IdRef="ReadRange_6" SheetName="Sheet1" WorkbookPath="[CurrentFile.FullName]" />
+                                  <Assign sap:VirtualizedContainerService.HintSize="1334,116" sap2010:WorkflowViewState.IdRef="Assign_57">
                                     <Assign.To>
                                       <OutArgument x:TypeArguments="sd1:DataTable">[remove_dup_batMat_tb]</OutArgument>
                                     </Assign.To>
@@ -1085,7 +1085,7 @@ Group row By c1 = row("Batch No."), c2 = row("Old material number") Into Group
 Select Group.First()).CopyToDataTable()]</InArgument>
                                     </Assign.Value>
                                   </Assign>
-                                  <Assign sap:VirtualizedContainerService.HintSize="546,115" sap2010:WorkflowViewState.IdRef="Assign_58">
+                                  <Assign sap:VirtualizedContainerService.HintSize="1334,115" sap2010:WorkflowViewState.IdRef="Assign_58">
                                     <Assign.To>
                                       <OutArgument x:TypeArguments="x:Int32">[isDataAfterReduce_OneMat]</OutArgument>
                                     </Assign.To>
@@ -1099,8 +1099,8 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                   </Assign>
-                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="546,177" sap2010:WorkflowViewState.IdRef="LogMessage_97" Message="[&quot;Datatable row =&gt; &quot; &amp; isDataAfterReduce_OneMat]" />
-                                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="546,57" sap2010:WorkflowViewState.IdRef="CommentOut_23">
+                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1334,177" sap2010:WorkflowViewState.IdRef="LogMessage_97" Message="[&quot;Datatable row =&gt; &quot; &amp; isDataAfterReduce_OneMat]" />
+                                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1334,57" sap2010:WorkflowViewState.IdRef="CommentOut_23">
                                     <ui:CommentOut.Body>
                                       <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,228" sap2010:WorkflowViewState.IdRef="Sequence_160">
                                         <sap:WorkflowViewStateService.ViewState>
@@ -1118,7 +1118,7 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                   </ui:CommentOut>
-                                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="546,57" sap2010:WorkflowViewState.IdRef="CommentOut_24">
+                                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1334,57" sap2010:WorkflowViewState.IdRef="CommentOut_24">
                                     <ui:CommentOut.Body>
                                       <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="512,533.6" sap2010:WorkflowViewState.IdRef="Sequence_162">
                                         <sap:WorkflowViewStateService.ViewState>
@@ -1152,13 +1152,13 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                   </ui:CommentOut>
-                                  <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[remove_dup_batMat_tb]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="546,621" sap2010:WorkflowViewState.IdRef="ForEachRow_6">
+                                  <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[remove_dup_batMat_tb]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="1334,8341" sap2010:WorkflowViewState.IdRef="ForEachRow_6">
                                     <ui:ForEachRow.Body>
                                       <ActivityAction x:TypeArguments="sd1:DataRow">
                                         <ActivityAction.Argument>
                                           <DelegateInArgument x:TypeArguments="sd1:DataRow" Name="CurrentRow" />
                                         </ActivityAction.Argument>
-                                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="512,423" sap2010:WorkflowViewState.IdRef="Sequence_147">
+                                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1150,8143" sap2010:WorkflowViewState.IdRef="Sequence_147">
                                           <Sequence.Variables>
                                             <Variable x:TypeArguments="x:String" Name="batch_no" />
                                             <Variable x:TypeArguments="x:String" Name="excel_old_mat" />
@@ -1168,7 +1168,7 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <Assign sap:VirtualizedContainerService.HintSize="450,115" sap2010:WorkflowViewState.IdRef="Assign_59">
+                                          <Assign sap:VirtualizedContainerService.HintSize="1088,115" sap2010:WorkflowViewState.IdRef="Assign_59">
                                             <Assign.To>
                                               <OutArgument x:TypeArguments="x:String">[batch_no]</OutArgument>
                                             </Assign.To>
@@ -1176,7 +1176,7 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                                               <InArgument x:TypeArguments="x:String">[CurrentRow("Batch No.").ToString()]</InArgument>
                                             </Assign.Value>
                                           </Assign>
-                                          <Assign sap:VirtualizedContainerService.HintSize="450,115" sap2010:WorkflowViewState.IdRef="Assign_60">
+                                          <Assign sap:VirtualizedContainerService.HintSize="1088,115" sap2010:WorkflowViewState.IdRef="Assign_60">
                                             <Assign.To>
                                               <OutArgument x:TypeArguments="x:String">[excel_old_mat]</OutArgument>
                                             </Assign.To>
@@ -1184,7 +1184,7 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                                               <InArgument x:TypeArguments="x:String">[CurrentRow("Old material number").ToString()]</InArgument>
                                             </Assign.Value>
                                           </Assign>
-                                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="CommentOut_25">
+                                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1088,57" sap2010:WorkflowViewState.IdRef="CommentOut_25">
                                             <ui:CommentOut.Body>
                                               <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,256" sap2010:WorkflowViewState.IdRef="Sequence_163">
                                                 <sap:WorkflowViewStateService.ViewState>
@@ -1202,10 +1202,10 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
                                           </ui:CommentOut>
-                                          <Sequence DisplayName="Search and add Cart" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="Sequence_181">
+                                          <Sequence DisplayName="Search and add Cart" sap:VirtualizedContainerService.HintSize="1088,7768" sap2010:WorkflowViewState.IdRef="Sequence_181">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
@@ -1499,7 +1499,7 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                                                                           </scg:Dictionary>
                                                                         </sap:WorkflowViewStateService.ViewState>
                                                                       </ui:CommentOut>
-                                                                      <Assign sap2010:Annotation.AnnotationText="Change Idx of icon &#xD;&#xA;1: Preview&#xD;&#xA;2: Download&#xD;&#xA;3: Copy link&#xD;&#xA;4: Add to cart **" sap:VirtualizedContainerService.HintSize="642,207" sap2010:WorkflowViewState.IdRef="Assign_62">
+                                                                      <Assign sap2010:Annotation.AnnotationText="Change Idx of icon &#xA;1: Preview&#xA;2: Download&#xA;3: Copy link&#xA;4: Add to cart **" sap:VirtualizedContainerService.HintSize="642,207" sap2010:WorkflowViewState.IdRef="Assign_62">
                                                                         <Assign.To>
                                                                           <OutArgument x:TypeArguments="x:Int32">[count_id]</OutArgument>
                                                                         </Assign.To>
@@ -1717,186 +1717,239 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                   </ui:ForEachRow>
-                                  <Sequence DisplayName="Fix change download policy single to zip cart" sap:VirtualizedContainerService.HintSize="546,57" sap2010:WorkflowViewState.IdRef="Sequence_206">
+                                  <Sequence DisplayName="isReady to load zip" sap:VirtualizedContainerService.HintSize="1334,3515" sap2010:WorkflowViewState.IdRef="Sequence_217">
                                     <Sequence.Variables>
-                                      <Variable x:TypeArguments="x:String" Name="cart_num" />
+                                      <Variable x:TypeArguments="x:String" Name="total_num_cart" />
+                                      <Variable x:TypeArguments="x:Int32" Name="count_n_cart">
+                                        <Variable.Default>
+                                          <Literal x:TypeArguments="x:Int32" />
+                                        </Variable.Default>
+                                      </Variable>
                                     </Sequence.Variables>
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
-                                    <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="1114,123" sap2010:WorkflowViewState.IdRef="Delay_15" />
-                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1114,227" sap2010:WorkflowViewState.IdRef="NClick_14" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="48f9d9f4-0fc2-4510-9709-c832b69cb65e" Version="V5">
-                                      <uix:NClick.Target>
-                                        <uix:TargetAnchorable BrowserURL="resourcecenter.biomerieux.com/search/eifu/1011361240" CVScreenId="3bf0f645-91a5-4e2e-9ee4-180edc774758" CvElementArea="1849, 950, 54, 56" CvType="Icon" DesignTimeRectangle="1851, 953, 50, 50" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-label='show cart' tag='BUTTON' type='button' /&gt;" Guid="a60c4820-bb20-48d7-99dd-e4f27e6dafea" ImageBase64="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" InformativeScreenshot="a6d6abbdcda7dd892e870834c87fd2a2.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Resource Center | Search ~ EIFU' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                                    <uix:NGetText DisplayName="Get Text 'Label'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1272,190" sap2010:WorkflowViewState.IdRef="NGetText_5" ScopeIdentifier="48f9d9f4-0fc2-4510-9709-c832b69cb65e" ScrapingMethod="Fulltext" ScrapingOptions="None" TextString="[total_num_cart]" Version="V5">
+                                      <uix:NGetText.Target>
+                                        <uix:TargetAnchorable BrowserURL="resourcecenter.biomerieux.com/search/eifu/1010041201" CVScreenId="35dacbe8-6772-4af7-a5fa-faf5d0f36027" CvType="AnyWordGroup" DesignTimeRectangle="1872, 965, 7, 26" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='fab-count' parentid='content' tag='DIV' type='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' /&gt;" Guid="6e195a5b-911e-46be-a1bc-99a0f6e8716a" InformativeScreenshot="18a0378b2694e4a09319e1162526e951.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Resource Center | Search ~ EIFU' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                                           <uix:TargetAnchorable.Anchors>
                                             <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                                              <uix:Target CVScreenId="3bf0f645-91a5-4e2e-9ee4-180edc774758" CvElementArea="1849, 950, 54, 56" CvType="Icon" DesignTimeRectangle="1859, 965, 33, 26" ElementType="Icon" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;svg' parentid='content' tag='svg' /&gt;" Guid="280bcd52-cb5b-4d90-b5de-d4a0fc7f76d9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACUAAAAeCAYAAACrI9dtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAODSURBVFhH1Zf5TxNBFMf9izy47/uSQ0AJwYtIEAyIBAIEOUopVKAcAhJF5VIEyk0xQpCIgCg2UAiIAiXGaolCsBIRFOMPPGcmdN3pbmkhXH6TT9q893b2u7uzb2aPHBWYwGHj/zLlmOsCKS1pkNoqMMiVB9G8Y+wUXlNmIivoe/cctqNzd0M54+wUjqnjGWbgWxIAr+aGYeH7ImR3iiG9TaiXdoWMmEpsvA5eRT7bwhNhkWVNnR/DMSVCJrRSaVRgn+NM5XUp6C7arN6ZZOOdYJppSY3JMVU9VEOKuya7Ibk5lcrx4ZDrDPVyKbSMtm2LNkUHLK1+hVGVAiyzbKgxKVN4ctcOPyKmwqoiwCXfA1wR3jf90CP1h1OlpyHgVhCcKQuG4DshEFJ+Hs2li3Dh/iUIrQiDsMrLEF4VCRE1UWTyR9Veg6t1sRBbHw/x0gRIaEyCpKZkdLEpIJSJQP1tHhQfx9Cj9OU3hU/06886MXQQknQVcE1FoqvDUqjGoHmkFVrRLd4PeqZ6yXmrXtRwTfmVBJKkVN4ExzJMyVu4H+A+h5UlE3NNOUvcYe33GnF+QmjOFOw1t/vKianw6kgmxpiyy3FCE08N8g8jvL3DEFrx5baiA7UELI9CbybGmLLMtoUJ9SQoF+fA5oYDU2AMbPHl9YFXjiHlS9SkF1BrcWHijCncwAZmBkCzqgHHPFemwBjY4svrwxZdvHJhjtwMq2w7Js6YwsjGH5OB3Qq8mJghsLS/WLr5rXCWuMHK+gr0vn0GJkILJk6ZqhysJgNvZ3HF0v5i6ea3IrAsiBxTNyyl4pSpnCcSUhQvTaSK9IHF/o/FzhsiriGBHCPpLqTilKm4hkRSlNuVTxXpQ5/4avko7Ckm9TF1cVScMnUWrWNYlazuaixa8eX0gRs1lk+xPxWnTLnle8LGxgaZ8Oy4MWjFl+PDJNMC+qb7YXltGZzy3KgcZQrvEpZ+LKHWMMjZ4+w2uAVMzU/B9OcZsBHTfZEyhZOzX5Sob0yAlfhf39gLHPM2b8As9wZQpsxF1vD6vRw+adRgjzZv7Nxu44mWFSy84dPNUabwqt39pgctzD/JBo+d223wJhCrtLeMk6NMYe71V5Dikqcl6BMrfc/QfnBEP4yhzo/hmHIvOEnWv/3QGNpQ8r1QHFMY3DfS0OZL0C7cM1JbBHrfcF5TB80hNGUCfwHf6hkg7IhdfwAAAABJRU5ErkJggg==" SearchSteps="Selector, CV" />
+                                              <uix:Target CVScreenId="35dacbe8-6772-4af7-a5fa-faf5d0f36027" DesignTimeRectangle="1851, 953, 50, 50" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-label='show cart' tag='BUTTON' type='button' /&gt;" Guid="13f09635-04f1-4e80-94bc-321b3df58d1f" SearchSteps="Selector" />
                                             </scg:List>
                                           </uix:TargetAnchorable.Anchors>
                                         </uix:TargetAnchorable>
-                                      </uix:NClick.Target>
-                                      <uix:NClick.VerifyOptions>
-                                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                                          <uix:VerifyExecutionOptions.Retry>
-                                            <InArgument x:TypeArguments="x:Boolean" />
-                                          </uix:VerifyExecutionOptions.Retry>
-                                          <uix:VerifyExecutionOptions.Timeout>
-                                            <InArgument x:TypeArguments="x:Double" />
-                                          </uix:VerifyExecutionOptions.Timeout>
-                                        </uix:VerifyExecutionOptions>
-                                      </uix:NClick.VerifyOptions>
-                                    </uix:NClick>
-                                    <uix:NCheckState DisplayName="Check App State 'Download cart : 4 file(…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1114,1845" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="48f9d9f4-0fc2-4510-9709-c832b69cb65e" Version="V5">
-                                      <uix:NCheckState.IfExists>
-                                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="610,1603" sap2010:WorkflowViewState.IdRef="Sequence_208">
+                                      </uix:NGetText.Target>
+                                    </uix:NGetText>
+                                    <Assign sap:VirtualizedContainerService.HintSize="1272,115" sap2010:WorkflowViewState.IdRef="Assign_80">
+                                      <Assign.To>
+                                        <OutArgument x:TypeArguments="x:Int32">[count_n_cart]</OutArgument>
+                                      </Assign.To>
+                                      <Assign.Value>
+                                        <InArgument x:TypeArguments="x:Int32">[Integer.Parse(total_num_cart)]</InArgument>
+                                      </Assign.Value>
+                                    </Assign>
+                                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1272,177" sap2010:WorkflowViewState.IdRef="LogMessage_141" Level="Warn" Message="[&quot;Final count cart = &quot; &amp; count_n_cart]" />
+                                    <If Condition="[count_n_cart &gt; 0]" sap:VirtualizedContainerService.HintSize="1272,2911" sap2010:WorkflowViewState.IdRef="If_36">
+                                      <If.Then>
+                                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="1238,2491" sap2010:WorkflowViewState.IdRef="Sequence_218">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Zip and Download all'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="548,227" sap2010:WorkflowViewState.IdRef="NClick_15" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="48f9d9f4-0fc2-4510-9709-c832b69cb65e" Version="V5">
-                                            <uix:NClick.Target>
-                                              <uix:TargetAnchorable BrowserURL="resourcecenter.biomerieux.com/search/eifu/1011361240" CVScreenId="b5949043-ecdf-4819-a688-3276b59eda33" CvElementArea="1714, 944, 165, 30" CvTextArea="1750, 953, 114, 13" CvTextArgument="Zip and Download all" CvType="Button" DesignTimeRectangle="1752, 954, 112, 11" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Zip and Download all' tag='DIV' type='' class='text prevent-select' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Zip and Download all' /&gt;" Guid="c4e6d83b-ad3c-4664-8f6c-0a9a1a3f93df" InformativeScreenshot="9fbd496760f111cad1d8afa5a9656fcf.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Resource Center | Search ~ EIFU' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
-                                                <uix:TargetAnchorable.Anchors>
-                                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                                                    <uix:Target CVScreenId="b5949043-ecdf-4819-a688-3276b59eda33" CvElementArea="1714, 944, 165, 30" CvTextArea="1750, 953, 114, 13" CvTextArgument="Zip and Download all" CvType="Button" DesignTimeRectangle="1716, 946, 162, 27" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Zip and Download all' tag='BUTTON' type='' class='flat-button     cart-download-btn' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Zip and Download all' /&gt;" Guid="03314f75-f9f6-4308-b266-d8cd831e05f1" SearchSteps="FuzzySelector, CV" />
-                                                  </scg:List>
-                                                </uix:TargetAnchorable.Anchors>
-                                              </uix:TargetAnchorable>
-                                            </uix:NClick.Target>
-                                            <uix:NClick.VerifyOptions>
-                                              <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                                                <uix:VerifyExecutionOptions.Retry>
-                                                  <InArgument x:TypeArguments="x:Boolean" />
-                                                </uix:VerifyExecutionOptions.Retry>
-                                                <uix:VerifyExecutionOptions.Timeout>
-                                                  <InArgument x:TypeArguments="x:Double" />
-                                                </uix:VerifyExecutionOptions.Timeout>
-                                              </uix:VerifyExecutionOptions>
-                                            </uix:NClick.VerifyOptions>
-                                          </uix:NClick>
-                                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="548,177" sap2010:WorkflowViewState.IdRef="LogMessage_137" Message="[&quot;Waiting zip download...&quot;]" />
-                                          <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="548,362" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
-                                            <ui:InterruptibleWhile.Body>
-                                              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="514,215" sap2010:WorkflowViewState.IdRef="Sequence_210">
-                                                <sap:WorkflowViewStateService.ViewState>
-                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                  </scg:Dictionary>
-                                                </sap:WorkflowViewStateService.ViewState>
-                                                <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="452,127" sap2010:WorkflowViewState.IdRef="CommentOut_36">
-                                                  <ui:CommentOut.Body>
-                                                    <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_216">
-                                                      <sap:WorkflowViewStateService.ViewState>
-                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                                        </scg:Dictionary>
-                                                      </sap:WorkflowViewStateService.ViewState>
-                                                      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="354,114" sap2010:WorkflowViewState.IdRef="WriteLine_16" Text="while watining zip.." />
-                                                    </Sequence>
-                                                  </ui:CommentOut.Body>
-                                                </ui:CommentOut>
-                                              </Sequence>
-                                            </ui:InterruptibleWhile.Body>
-                                            <ui:InterruptibleWhile.Condition>
-                                              <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="System.IO.Directory.GetFiles(path_chrome_dl).Length &lt;= 0" />
-                                            </ui:InterruptibleWhile.Condition>
-                                          </ui:InterruptibleWhile>
-                                          <Delay Duration="00:00:00.5000000" sap:VirtualizedContainerService.HintSize="548,123" sap2010:WorkflowViewState.IdRef="Delay_17" />
-                                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="548,177" sap2010:WorkflowViewState.IdRef="LogMessage_135" Level="Trace" Message="[&quot;Download done =&gt; let's clear cart..&quot;]" />
-                                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Empty cart'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="548,227" sap2010:WorkflowViewState.IdRef="NClick_16" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="48f9d9f4-0fc2-4510-9709-c832b69cb65e" Version="V5">
-                                            <uix:NClick.Target>
-                                              <uix:TargetAnchorable BrowserURL="resourcecenter.biomerieux.com/search/eifu/1011361240" CVScreenId="b3eda2f6-71e6-4428-aa8c-980076bf94d5" CvElementArea="1714, 980, 166, 32" CvTextArea="1777, 990, 60, 13" CvTextArgument="Empty cart" CvType="Button" DesignTimeRectangle="1716, 982, 162, 29" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Empty cart' tag='BUTTON' type='' class='flat-button  theme-delete   cart-delete-btn' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Empty cart' /&gt;" Guid="342349f8-a41f-44af-8ac2-c0f4f18a6a28" InformativeScreenshot="9b17020f78ddd31b8181cc85cbefb443.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Resource Center | Search ~ EIFU' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
-                                                <uix:TargetAnchorable.Anchors>
-                                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                                                    <uix:Target CVScreenId="b3eda2f6-71e6-4428-aa8c-980076bf94d5" CvElementArea="1714, 980, 166, 32" CvTextArea="1777, 990, 60, 13" CvTextArgument="Empty cart" CvType="Button" DesignTimeRectangle="1779, 991, 58, 11" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Empty cart' tag='DIV' type='' class='text prevent-select' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Empty cart' /&gt;" Guid="f53bbfac-c104-414d-8e6e-56011513207d" SearchSteps="FuzzySelector, CV" />
-                                                  </scg:List>
-                                                </uix:TargetAnchorable.Anchors>
-                                                <uix:TargetAnchorable.PointOffset>
-                                                  <uix:PointOffset Position="TopLeft" X="83" Y="17" />
-                                                </uix:TargetAnchorable.PointOffset>
-                                              </uix:TargetAnchorable>
-                                            </uix:NClick.Target>
-                                            <uix:NClick.VerifyOptions>
-                                              <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                                                <uix:VerifyExecutionOptions.Retry>
-                                                  <InArgument x:TypeArguments="x:Boolean" />
-                                                </uix:VerifyExecutionOptions.Retry>
-                                                <uix:VerifyExecutionOptions.Timeout>
-                                                  <InArgument x:TypeArguments="x:Double" />
-                                                </uix:VerifyExecutionOptions.Timeout>
-                                              </uix:VerifyExecutionOptions>
-                                            </uix:NClick.VerifyOptions>
-                                          </uix:NClick>
-                                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'DIV'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="548,220" sap2010:WorkflowViewState.IdRef="NClick_17" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="48f9d9f4-0fc2-4510-9709-c832b69cb65e" Version="V5">
-                                            <uix:NClick.Target>
-                                              <uix:TargetAnchorable BrowserURL="resourcecenter.biomerieux.com/search/eifu/1011361240" DesignTimeRectangle="8, 129, 1920, 919" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div' idx='2' isleaf='1' tag='DIV' /&gt;" Guid="471854a3-43a8-4ac2-9a76-4f6e0e76cdcb" InformativeScreenshot="5fea4c864f46880527366c0858d13329.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Resource Center | Search ~ EIFU' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
-                                            </uix:NClick.Target>
-                                            <uix:NClick.VerifyOptions>
-                                              <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                                                <uix:VerifyExecutionOptions.Retry>
-                                                  <InArgument x:TypeArguments="x:Boolean" />
-                                                </uix:VerifyExecutionOptions.Retry>
-                                                <uix:VerifyExecutionOptions.Timeout>
-                                                  <InArgument x:TypeArguments="x:Double" />
-                                                </uix:VerifyExecutionOptions.Timeout>
-                                              </uix:VerifyExecutionOptions>
-                                            </uix:NClick.VerifyOptions>
-                                          </uix:NClick>
-                                        </Sequence>
-                                      </uix:NCheckState.IfExists>
-                                      <uix:NCheckState.IfNotExists>
-                                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,260" sap2010:WorkflowViewState.IdRef="Sequence_209">
-                                          <sap:WorkflowViewStateService.ViewState>
-                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                            </scg:Dictionary>
-                                          </sap:WorkflowViewStateService.ViewState>
-                                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,170" sap2010:WorkflowViewState.IdRef="LogMessage_134" Level="Error" Message="[&quot;Not found cart panel&quot;]" />
-                                        </Sequence>
-                                      </uix:NCheckState.IfNotExists>
-                                      <uix:NCheckState.Target>
-                                        <uix:TargetAnchorable BrowserURL="resourcecenter.biomerieux.com/search/eifu/1011361240" DesignTimeRectangle="1666, 129, 262, 919" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div' idx='13' tag='DIV' /&gt;" Guid="75ace1a6-1005-40bf-b4c4-c3b8c831e8ab" InformativeScreenshot="47e45952f78ea4e82da172b7e4313919.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Resource Center | Search ~ EIFU' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
-                                      </uix:NCheckState.Target>
-                                    </uix:NCheckState>
-                                  </Sequence>
-                                  <Sequence DisplayName="Extract zip" sap:VirtualizedContainerService.HintSize="546,57" sap2010:WorkflowViewState.IdRef="Sequence_207">
-                                    <sap:WorkflowViewStateService.ViewState>
-                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                      </scg:Dictionary>
-                                    </sap:WorkflowViewStateService.ViewState>
-                                    <ui:ForEachFileX DisplayName="For Each File in Folder" Filter="*.zip" Folder="C:\Buffer_uipath\cer_download" sap:VirtualizedContainerService.HintSize="450,853" sap2010:WorkflowViewState.IdRef="ForEachFileX_15" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
-                                      <ui:ForEachFileX.Body>
-                                        <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
-                                          <ActivityAction.Argument1>
-                                            <DelegateInArgument x:TypeArguments="si:FileInfo" Name="CurrentFile" />
-                                          </ActivityAction.Argument1>
-                                          <ActivityAction.Argument2>
-                                            <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
-                                          </ActivityAction.Argument2>
-                                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,557" sap2010:WorkflowViewState.IdRef="Sequence_213">
+                                          <Sequence DisplayName="Fix change download policy single to zip cart" sap:VirtualizedContainerService.HintSize="1176,2355" sap2010:WorkflowViewState.IdRef="Sequence_206">
+                                            <Sequence.Variables>
+                                              <Variable x:TypeArguments="x:String" Name="cart_num" />
+                                            </Sequence.Variables>
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
-                                            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="354,123" sap2010:WorkflowViewState.IdRef="WriteLine_15" Text="[CurrentFile.FullName]" />
-                                            <uascw:ExtractFiles Content="{x:Null}" DestinationFolderInfo="{x:Null}" File="{x:Null}" Password="{x:Null}" CodePage="Default" ConflictResolution="Replace" DestinationFolder="C:\Buffer_uipath\cer_download" DisplayName="Extract/Unzip Files" ExtractToADedicatedFolder="False" FileToExtract="[CurrentFile.FullName]" sap:VirtualizedContainerService.HintSize="354,242" sap2010:WorkflowViewState.IdRef="ExtractFiles_2" SkipUnsupportedFiles="False" />
-                                            <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="354,104" sap2010:WorkflowViewState.IdRef="DeleteFileX_9" Path="[CurrentFile.FullName]" />
+                                            <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="1114,123" sap2010:WorkflowViewState.IdRef="Delay_15" />
+                                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1114,227" sap2010:WorkflowViewState.IdRef="NClick_14" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="48f9d9f4-0fc2-4510-9709-c832b69cb65e" Version="V5">
+                                              <uix:NClick.Target>
+                                                <uix:TargetAnchorable BrowserURL="resourcecenter.biomerieux.com/search/eifu/1011361240" CVScreenId="3bf0f645-91a5-4e2e-9ee4-180edc774758" CvElementArea="1849, 950, 54, 56" CvType="Icon" DesignTimeRectangle="1851, 953, 50, 50" ElementType="Button" FullSelectorArgument="&lt;webctrl aria-label='show cart' tag='BUTTON' type='button' /&gt;" Guid="a60c4820-bb20-48d7-99dd-e4f27e6dafea" ImageBase64="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" InformativeScreenshot="a6d6abbdcda7dd892e870834c87fd2a2.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Resource Center | Search ~ EIFU' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                                                  <uix:TargetAnchorable.Anchors>
+                                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                      <uix:Target CVScreenId="3bf0f645-91a5-4e2e-9ee4-180edc774758" CvElementArea="1849, 950, 54, 56" CvType="Icon" DesignTimeRectangle="1859, 965, 33, 26" ElementType="Icon" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;svg' parentid='content' tag='svg' /&gt;" Guid="280bcd52-cb5b-4d90-b5de-d4a0fc7f76d9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACUAAAAeCAYAAACrI9dtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAODSURBVFhH1Zf5TxNBFMf9izy47/uSQ0AJwYtIEAyIBAIEOUopVKAcAhJF5VIEyk0xQpCIgCg2UAiIAiXGaolCsBIRFOMPPGcmdN3pbmkhXH6TT9q893b2u7uzb2aPHBWYwGHj/zLlmOsCKS1pkNoqMMiVB9G8Y+wUXlNmIivoe/cctqNzd0M54+wUjqnjGWbgWxIAr+aGYeH7ImR3iiG9TaiXdoWMmEpsvA5eRT7bwhNhkWVNnR/DMSVCJrRSaVRgn+NM5XUp6C7arN6ZZOOdYJppSY3JMVU9VEOKuya7Ibk5lcrx4ZDrDPVyKbSMtm2LNkUHLK1+hVGVAiyzbKgxKVN4ctcOPyKmwqoiwCXfA1wR3jf90CP1h1OlpyHgVhCcKQuG4DshEFJ+Hs2li3Dh/iUIrQiDsMrLEF4VCRE1UWTyR9Veg6t1sRBbHw/x0gRIaEyCpKZkdLEpIJSJQP1tHhQfx9Cj9OU3hU/06886MXQQknQVcE1FoqvDUqjGoHmkFVrRLd4PeqZ6yXmrXtRwTfmVBJKkVN4ExzJMyVu4H+A+h5UlE3NNOUvcYe33GnF+QmjOFOw1t/vKianw6kgmxpiyy3FCE08N8g8jvL3DEFrx5baiA7UELI9CbybGmLLMtoUJ9SQoF+fA5oYDU2AMbPHl9YFXjiHlS9SkF1BrcWHijCncwAZmBkCzqgHHPFemwBjY4svrwxZdvHJhjtwMq2w7Js6YwsjGH5OB3Qq8mJghsLS/WLr5rXCWuMHK+gr0vn0GJkILJk6ZqhysJgNvZ3HF0v5i6ea3IrAsiBxTNyyl4pSpnCcSUhQvTaSK9IHF/o/FzhsiriGBHCPpLqTilKm4hkRSlNuVTxXpQ5/4avko7Ckm9TF1cVScMnUWrWNYlazuaixa8eX0gRs1lk+xPxWnTLnle8LGxgaZ8Oy4MWjFl+PDJNMC+qb7YXltGZzy3KgcZQrvEpZ+LKHWMMjZ4+w2uAVMzU/B9OcZsBHTfZEyhZOzX5Sob0yAlfhf39gLHPM2b8As9wZQpsxF1vD6vRw+adRgjzZv7Nxu44mWFSy84dPNUabwqt39pgctzD/JBo+d223wJhCrtLeMk6NMYe71V5Dikqcl6BMrfc/QfnBEP4yhzo/hmHIvOEnWv/3QGNpQ8r1QHFMY3DfS0OZL0C7cM1JbBHrfcF5TB80hNGUCfwHf6hkg7IhdfwAAAABJRU5ErkJggg==" SearchSteps="Selector, CV" />
+                                                    </scg:List>
+                                                  </uix:TargetAnchorable.Anchors>
+                                                </uix:TargetAnchorable>
+                                              </uix:NClick.Target>
+                                              <uix:NClick.VerifyOptions>
+                                                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                                  <uix:VerifyExecutionOptions.Retry>
+                                                    <InArgument x:TypeArguments="x:Boolean" />
+                                                  </uix:VerifyExecutionOptions.Retry>
+                                                  <uix:VerifyExecutionOptions.Timeout>
+                                                    <InArgument x:TypeArguments="x:Double" />
+                                                  </uix:VerifyExecutionOptions.Timeout>
+                                                </uix:VerifyExecutionOptions>
+                                              </uix:NClick.VerifyOptions>
+                                            </uix:NClick>
+                                            <uix:NCheckState DisplayName="Check App State 'Download cart : 4 file(…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="1114,1885" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="48f9d9f4-0fc2-4510-9709-c832b69cb65e" Timeout="10" Version="V5">
+                                              <uix:NCheckState.IfExists>
+                                                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="610,1603" sap2010:WorkflowViewState.IdRef="Sequence_208">
+                                                  <sap:WorkflowViewStateService.ViewState>
+                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                    </scg:Dictionary>
+                                                  </sap:WorkflowViewStateService.ViewState>
+                                                  <Delay Duration="00:00:00.5000000" sap:VirtualizedContainerService.HintSize="548,123" sap2010:WorkflowViewState.IdRef="Delay_18" />
+                                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Zip and Download all'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="548,227" sap2010:WorkflowViewState.IdRef="NClick_15" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="48f9d9f4-0fc2-4510-9709-c832b69cb65e" Version="V5">
+                                                    <uix:NClick.Target>
+                                                      <uix:TargetAnchorable BrowserURL="resourcecenter.biomerieux.com/search/eifu/1011361240" CVScreenId="b5949043-ecdf-4819-a688-3276b59eda33" CvElementArea="1714, 944, 165, 30" CvTextArea="1750, 953, 114, 13" CvTextArgument="Zip and Download all" CvType="Button" DesignTimeRectangle="1752, 954, 112, 11" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Zip and Download all' tag='DIV' type='' class='text prevent-select' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Zip and Download all' /&gt;" Guid="c4e6d83b-ad3c-4664-8f6c-0a9a1a3f93df" InformativeScreenshot="9fbd496760f111cad1d8afa5a9656fcf.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Resource Center | Search ~ EIFU' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                                                        <uix:TargetAnchorable.Anchors>
+                                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                            <uix:Target CVScreenId="b5949043-ecdf-4819-a688-3276b59eda33" CvElementArea="1714, 944, 165, 30" CvTextArea="1750, 953, 114, 13" CvTextArgument="Zip and Download all" CvType="Button" DesignTimeRectangle="1716, 946, 162, 27" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Zip and Download all' tag='BUTTON' type='' class='flat-button     cart-download-btn' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Zip and Download all' /&gt;" Guid="03314f75-f9f6-4308-b266-d8cd831e05f1" SearchSteps="FuzzySelector, CV" />
+                                                          </scg:List>
+                                                        </uix:TargetAnchorable.Anchors>
+                                                      </uix:TargetAnchorable>
+                                                    </uix:NClick.Target>
+                                                    <uix:NClick.VerifyOptions>
+                                                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                                        <uix:VerifyExecutionOptions.Retry>
+                                                          <InArgument x:TypeArguments="x:Boolean" />
+                                                        </uix:VerifyExecutionOptions.Retry>
+                                                        <uix:VerifyExecutionOptions.Timeout>
+                                                          <InArgument x:TypeArguments="x:Double" />
+                                                        </uix:VerifyExecutionOptions.Timeout>
+                                                      </uix:VerifyExecutionOptions>
+                                                    </uix:NClick.VerifyOptions>
+                                                  </uix:NClick>
+                                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="548,177" sap2010:WorkflowViewState.IdRef="LogMessage_137" Message="[&quot;Waiting zip download...&quot;]" />
+                                                  <ui:InterruptibleWhile CurrentIndex="{x:Null}" Condition="[System.IO.Directory.GetFiles(path_chrome_dl).Length &lt;= 0]" DisplayName="While" sap:VirtualizedContainerService.HintSize="548,362" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+                                                    <ui:InterruptibleWhile.Body>
+                                                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="514,215" sap2010:WorkflowViewState.IdRef="Sequence_210">
+                                                        <sap:WorkflowViewStateService.ViewState>
+                                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                          </scg:Dictionary>
+                                                        </sap:WorkflowViewStateService.ViewState>
+                                                        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="452,127" sap2010:WorkflowViewState.IdRef="CommentOut_36">
+                                                          <ui:CommentOut.Body>
+                                                            <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_216">
+                                                              <sap:WorkflowViewStateService.ViewState>
+                                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                </scg:Dictionary>
+                                                              </sap:WorkflowViewStateService.ViewState>
+                                                              <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="354,114" sap2010:WorkflowViewState.IdRef="WriteLine_16" Text="while watining zip.." />
+                                                            </Sequence>
+                                                          </ui:CommentOut.Body>
+                                                        </ui:CommentOut>
+                                                      </Sequence>
+                                                    </ui:InterruptibleWhile.Body>
+                                                  </ui:InterruptibleWhile>
+                                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="548,177" sap2010:WorkflowViewState.IdRef="LogMessage_135" Level="Trace" Message="[&quot;Download done =&gt; let's clear cart..&quot;]" />
+                                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Empty cart'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="548,227" sap2010:WorkflowViewState.IdRef="NClick_16" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="48f9d9f4-0fc2-4510-9709-c832b69cb65e" Version="V5">
+                                                    <uix:NClick.Target>
+                                                      <uix:TargetAnchorable BrowserURL="resourcecenter.biomerieux.com/search/eifu/1011361240" CVScreenId="b3eda2f6-71e6-4428-aa8c-980076bf94d5" CvElementArea="1714, 980, 166, 32" CvTextArea="1777, 990, 60, 13" CvTextArgument="Empty cart" CvType="Button" DesignTimeRectangle="1716, 982, 162, 29" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Empty cart' tag='BUTTON' type='' class='flat-button  theme-delete   cart-delete-btn' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Empty cart' /&gt;" Guid="342349f8-a41f-44af-8ac2-c0f4f18a6a28" InformativeScreenshot="9b17020f78ddd31b8181cc85cbefb443.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Resource Center | Search ~ EIFU' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                                                        <uix:TargetAnchorable.Anchors>
+                                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                            <uix:Target CVScreenId="b3eda2f6-71e6-4428-aa8c-980076bf94d5" CvElementArea="1714, 980, 166, 32" CvTextArea="1777, 990, 60, 13" CvTextArgument="Empty cart" CvType="Button" DesignTimeRectangle="1779, 991, 58, 11" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Empty cart' tag='DIV' type='' class='text prevent-select' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Empty cart' /&gt;" Guid="f53bbfac-c104-414d-8e6e-56011513207d" SearchSteps="FuzzySelector, CV" />
+                                                          </scg:List>
+                                                        </uix:TargetAnchorable.Anchors>
+                                                        <uix:TargetAnchorable.PointOffset>
+                                                          <uix:PointOffset Position="TopLeft" X="83" Y="17" />
+                                                        </uix:TargetAnchorable.PointOffset>
+                                                      </uix:TargetAnchorable>
+                                                    </uix:NClick.Target>
+                                                    <uix:NClick.VerifyOptions>
+                                                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                                        <uix:VerifyExecutionOptions.Retry>
+                                                          <InArgument x:TypeArguments="x:Boolean" />
+                                                        </uix:VerifyExecutionOptions.Retry>
+                                                        <uix:VerifyExecutionOptions.Timeout>
+                                                          <InArgument x:TypeArguments="x:Double" />
+                                                        </uix:VerifyExecutionOptions.Timeout>
+                                                      </uix:VerifyExecutionOptions>
+                                                    </uix:NClick.VerifyOptions>
+                                                  </uix:NClick>
+                                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'DIV'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="548,220" sap2010:WorkflowViewState.IdRef="NClick_17" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="48f9d9f4-0fc2-4510-9709-c832b69cb65e" Version="V5">
+                                                    <uix:NClick.Target>
+                                                      <uix:TargetAnchorable BrowserURL="resourcecenter.biomerieux.com/search/eifu/1011361240" DesignTimeRectangle="8, 129, 1920, 919" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div' idx='2' isleaf='1' tag='DIV' /&gt;" Guid="471854a3-43a8-4ac2-9a76-4f6e0e76cdcb" InformativeScreenshot="5fea4c864f46880527366c0858d13329.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Resource Center | Search ~ EIFU' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                                                    </uix:NClick.Target>
+                                                    <uix:NClick.VerifyOptions>
+                                                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                                        <uix:VerifyExecutionOptions.Retry>
+                                                          <InArgument x:TypeArguments="x:Boolean" />
+                                                        </uix:VerifyExecutionOptions.Retry>
+                                                        <uix:VerifyExecutionOptions.Timeout>
+                                                          <InArgument x:TypeArguments="x:Double" />
+                                                        </uix:VerifyExecutionOptions.Timeout>
+                                                      </uix:VerifyExecutionOptions>
+                                                    </uix:NClick.VerifyOptions>
+                                                  </uix:NClick>
+                                                </Sequence>
+                                              </uix:NCheckState.IfExists>
+                                              <uix:NCheckState.IfNotExists>
+                                                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,260" sap2010:WorkflowViewState.IdRef="Sequence_209">
+                                                  <sap:WorkflowViewStateService.ViewState>
+                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                    </scg:Dictionary>
+                                                  </sap:WorkflowViewStateService.ViewState>
+                                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,170" sap2010:WorkflowViewState.IdRef="LogMessage_134" Level="Error" Message="[&quot;Not found cart panel&quot;]" />
+                                                </Sequence>
+                                              </uix:NCheckState.IfNotExists>
+                                              <uix:NCheckState.Target>
+                                                <uix:TargetAnchorable BrowserURL="resourcecenter.biomerieux.com/search/eifu/1011361240" DesignTimeRectangle="1666, 129, 262, 919" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div' idx='13' tag='DIV' /&gt;" Guid="75ace1a6-1005-40bf-b4c4-c3b8c831e8ab" InformativeScreenshot="47e45952f78ea4e82da172b7e4313919.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Resource Center | Search ~ EIFU' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                                              </uix:NCheckState.Target>
+                                            </uix:NCheckState>
                                           </Sequence>
-                                        </ActivityAction>
-                                      </ui:ForEachFileX.Body>
-                                    </ui:ForEachFileX>
-                                    <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="450,123" sap2010:WorkflowViewState.IdRef="Delay_16" />
-                                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,166" sap2010:WorkflowViewState.IdRef="LogMessage_136" Level="Info" Message="[&quot;Extract here and Delete zip done...&quot;]" />
+                                          <Sequence DisplayName="Extract zip" sap:VirtualizedContainerService.HintSize="1176,48" sap2010:WorkflowViewState.IdRef="Sequence_207">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <ui:ForEachFileX DisplayName="For Each File in Folder" Filter="*.zip" Folder="C:\Buffer_uipath\cer_download" sap:VirtualizedContainerService.HintSize="450,853" sap2010:WorkflowViewState.IdRef="ForEachFileX_15" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
+                                              <ui:ForEachFileX.Body>
+                                                <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
+                                                  <ActivityAction.Argument1>
+                                                    <DelegateInArgument x:TypeArguments="si:FileInfo" Name="CurrentFile" />
+                                                  </ActivityAction.Argument1>
+                                                  <ActivityAction.Argument2>
+                                                    <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+                                                  </ActivityAction.Argument2>
+                                                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,557" sap2010:WorkflowViewState.IdRef="Sequence_213">
+                                                    <sap:WorkflowViewStateService.ViewState>
+                                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                      </scg:Dictionary>
+                                                    </sap:WorkflowViewStateService.ViewState>
+                                                    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="354,123" sap2010:WorkflowViewState.IdRef="WriteLine_15" Text="[CurrentFile.FullName]" />
+                                                    <uascw:ExtractFiles Content="{x:Null}" DestinationFolderInfo="{x:Null}" File="{x:Null}" Password="{x:Null}" CodePage="Default" ConflictResolution="Replace" DestinationFolder="C:\Buffer_uipath\cer_download" DisplayName="Extract/Unzip Files" ExtractToADedicatedFolder="False" FileToExtract="[CurrentFile.FullName]" sap:VirtualizedContainerService.HintSize="354,242" sap2010:WorkflowViewState.IdRef="ExtractFiles_2" SkipUnsupportedFiles="False" />
+                                                    <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="354,104" sap2010:WorkflowViewState.IdRef="DeleteFileX_9" Path="[CurrentFile.FullName]" />
+                                                  </Sequence>
+                                                </ActivityAction>
+                                              </ui:ForEachFileX.Body>
+                                            </ui:ForEachFileX>
+                                            <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="450,123" sap2010:WorkflowViewState.IdRef="Delay_16" />
+                                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,166" sap2010:WorkflowViewState.IdRef="LogMessage_136" Level="Info" Message="[&quot;Extract here and Delete zip done...&quot;]" />
+                                          </Sequence>
+                                        </Sequence>
+                                      </If.Then>
+                                      <If.Else>
+                                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,256" sap2010:WorkflowViewState.IdRef="Sequence_219">
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="354,168" sap2010:WorkflowViewState.IdRef="LogMessage_140" Level="Error" Message="[&quot;Total cart = 0 =&gt; Dont dowload &quot;]" />
+                                        </Sequence>
+                                      </If.Else>
+                                    </If>
                                   </Sequence>
-                                  <Sequence DisplayName="Sequence-Reassign to count real extract pdf" sap:VirtualizedContainerService.HintSize="546,407" sap2010:WorkflowViewState.IdRef="Sequence_215">
+                                  <Sequence DisplayName="Sequence-Reassign to count real extract pdf" sap:VirtualizedContainerService.HintSize="1334,407" sap2010:WorkflowViewState.IdRef="Sequence_215">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1912,7 +1965,7 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                                     </Assign>
                                     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,170" sap2010:WorkflowViewState.IdRef="LogMessage_139" Level="Trace" Message="[&quot;Extract PDF Count = &quot; &amp; isDataAfterReduce_OneMat]" />
                                   </Sequence>
-                                  <If Condition="[isDataAfterReduce_OneMat = 1]" DisplayName="If - mat cant merge" sap:VirtualizedContainerService.HintSize="546,57" sap2010:WorkflowViewState.IdRef="If_34">
+                                  <If Condition="[isDataAfterReduce_OneMat = 1]" DisplayName="If - mat cant merge" sap:VirtualizedContainerService.HintSize="1334,57" sap2010:WorkflowViewState.IdRef="If_34">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -2200,7 +2253,7 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                                       </Sequence>
                                     </If.Else>
                                   </If>
-                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="546,170" sap2010:WorkflowViewState.IdRef="LogMessage_128" Message="[&quot; ================== END File  ======================&quot;]" />
+                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1334,170" sap2010:WorkflowViewState.IdRef="LogMessage_128" Message="[&quot; ================== END File  ======================&quot;]" />
                                 </Sequence>
                               </ActivityAction>
                             </ui:ForEachFileX.Body>
@@ -2209,7 +2262,7 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                       </ActivityAction>
                     </uix:NApplicationCard.Body>
                     <uix:NApplicationCard.TargetApp>
-                      <uix:TargetApp Area="-8, -8, 1936, 1056" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="e6d9a78c747b2cf8b4c317deed3767e8.jpg" Selector="&lt;html app='chrome.exe' title='Resource Center | Search ~ EIFU' /&gt;" Url="https://resourcecenter.biomerieux.com/search/eifu" />
+                      <uix:TargetApp Area="-8, -8, 1936, 1056" BrowserType="Chrome" ContentHash="ZxSn-Atudki-vWTFx4F9pA" IconBase64="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" InformativeScreenshot="e6d9a78c747b2cf8b4c317deed3767e8.jpg" Reference="sy1sJIwqUUS3hIckUH9CAA/wucxyQpJoka2_dLh2t0E_w" Selector="&lt;html app='chrome.exe' title='Resource Center | Search ~ EIFU' /&gt;" Url="https://resourcecenter.biomerieux.com/search/eifu" />
                     </uix:NApplicationCard.TargetApp>
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -2218,8 +2271,8 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </uix:NApplicationCard>
-                  <ui:CreateFile ContinueOnError="{x:Null}" Output="{x:Null}" DisplayName="Create File - Flag job done" sap:VirtualizedContainerService.HintSize="1376,167" sap2010:WorkflowViewState.IdRef="CreateFile_2" Name="DONE.flag" Path="[$&quot;D:\\SharePoint\\DKSH\\SCM RPA - TEC\\SAP_COA\\COA\\{schedule_range_format}&quot;]" />
-                  <Sequence DisplayName="Acc stat var" sap:VirtualizedContainerService.HintSize="1376,1091" sap2010:WorkflowViewState.IdRef="Sequence_200">
+                  <ui:CreateFile ContinueOnError="{x:Null}" Output="{x:Null}" DisplayName="Create File - Flag job done" sap:VirtualizedContainerService.HintSize="1526,167" sap2010:WorkflowViewState.IdRef="CreateFile_2" Name="DONE.flag" Path="[$&quot;D:\\SharePoint\\DKSH\\SCM RPA - TEC\\SAP_COA\\COA\\{schedule_range_format}&quot;]" />
+                  <Sequence DisplayName="Acc stat var" sap:VirtualizedContainerService.HintSize="1526,1091" sap2010:WorkflowViewState.IdRef="Sequence_200">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -3675,15 +3728,15 @@ Select Group.First()).CopyToDataTable()]</InArgument>
               <InArgument x:TypeArguments="x:String">[DateTime.Now.ToString("dd.MM.yyyy")]</InArgument>
             </Assign.Value>
           </Assign>
-          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="532,305" sap2010:WorkflowViewState.IdRef="CommentOut_35">
+          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="532,305" sap2010:WorkflowViewState.IdRef="CommentOut_37">
             <ui:CommentOut.Body>
-              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="496,194" sap2010:WorkflowViewState.IdRef="Sequence_214">
+              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="496,194" sap2010:WorkflowViewState.IdRef="Sequence_220">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Assign sap:VirtualizedContainerService.HintSize="434,106" sap2010:WorkflowViewState.IdRef="Assign_76">
+                <Assign sap:VirtualizedContainerService.HintSize="434,106" sap2010:WorkflowViewState.IdRef="Assign_79">
                   <Assign.To>
                     <OutArgument x:TypeArguments="x:String">[schedule_range_format]</OutArgument>
                   </Assign.To>
@@ -3868,11 +3921,7 @@ Select Group.First()).CopyToDataTable()]</InArgument>
                 </sap:WorkflowViewStateService.ViewState>
                 <Sequence DisplayName="Empty download folder - Local" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="Sequence_201">
                   <Sequence.Variables>
-                    <Variable x:TypeArguments="x:String" Name="staging_dl_path">
-                      <Variable.Default>
-                        <Literal x:TypeArguments="x:String">C:\Buffer_uipath\cer_download</Literal>
-                      </Variable.Default>
-                    </Variable>
+                    <Variable x:TypeArguments="x:String" Default="C:\Buffer_uipath\cer_download" Name="staging_dl_path" />
                     <Variable x:TypeArguments="s:String[]" Name="staging_count" />
                   </Sequence.Variables>
                   <sap:WorkflowViewStateService.ViewState>

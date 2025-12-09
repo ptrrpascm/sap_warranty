@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="P1zHFHhDe0e2EHgYsfJszA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="resourcecenter.biomerieux.com/search/eifu/1010041201" CVScreenId="b0db8a60-a033-4797-9c7d-5efa3e8f5862" CvType="AnyWordGroup" DesignTimeRectangle="1872, 965, 7, 26" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='fab-count' parentid='content' tag='DIV' type='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' /&gt;" Guid="5319ef21-330d-48bb-a22a-7da87bb7ad0b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Resource Center | Search ~ EIFU' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b0db8a60-a033-4797-9c7d-5efa3e8f5862" CvElementArea="1849, 950, 54, 56" CvType="AnyIcon" DesignTimeRectangle="1851, 953, 50, 50" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aria-label='show cart' tag='BUTTON' type='button' class='MuiButtonBase-root MuiFab-root MuiFab-circular MuiFab-sizeLarge MuiFab-success MuiFab-root MuiFab-circular MuiFab-sizeLarge MuiFab-success css-1n1n8q2' aaname='0' matching:aria-label='fuzzy' fuzzylevel:aria-label='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='0' /&gt;" Guid="80ceaa5d-5c77-41d7-b5bc-c824777bef50" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="87b218cdeb47f49005875a2ff35d5ce7.png" xmlns="">0_4VlQGanY0GqqOSziEvujw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
