@@ -1,0 +1,353 @@
+{
+  "exportedBy": null,
+  "bundleHash": null,
+  "version": "1.0.0.0",
+  "jitAssemblyCompilerCommands": [
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 1,
+        "idRef": "NExtractDataGeneric`1_1",
+        "hash": "NExtractDataGeneric`1_1|DataTable|zwpr3Xg4KxfAXjxD32XC2eYy7Hmv3nxdLXfpcS9At8",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Item Number*",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Lot Number",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Lot Number Url",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Document Type",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Language",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable1",
+        "hash": "NExtractDataGeneric`1_1|DataTable|AVzh49cI0fYSMEErH2fn0Go0CIdLveYeEcOhDa5Mde8",
+        "assemblyName": "Studio.Generated.TypedDataTable1"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 2,
+        "idRef": "ReadRangeConnections`1_1",
+        "hash": "ReadRangeConnections`1_1|DataTable|pQueBUTEAlwzOnAQ3TbfYu9xgPhKm2LyJdNgk0mJpY4",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "TO",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "TO",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "CC",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "CC",
+            "category": "Simplified"
+          }
+        ],
+        "rowExtensionProperties": [
+          {
+            "columnName": "WorksheetsRowIndex",
+            "dataType": "System.Int32, System.Private.CoreLib",
+            "descriptionKey": "General_RowExtensions_Property_WorksheetsRowIndex_Description",
+            "category": "Simplified"
+          }
+        ],
+        "nestedRowExtensionProperties": [
+          {
+            "parentColumnName": "TO",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "TO Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "TO",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "TO ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "CC",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "CC Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "CC",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "CC ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          }
+        ],
+        "resourceManager": {
+          "resourceManagerName": "UiPath.MicrosoftOffice365.Properties.Resources",
+          "resourceManagerAssemblyName": "UiPath.MicrosoftOffice365"
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable2",
+        "hash": "ReadRangeConnections`1_1|DataTable|j87OdXoRifdoDXHBmw9YtMt0dzvdFkyho8Pd7LDdVw|kTpLYz4sNoey8Tk2EUQH8fS98LWuj9UMSbl2aNSKE4|dpA8m66ruZrdVrm6TDByraKP8l0W6FcqcvXEux5QU",
+        "assemblyName": "Studio.Generated.TypedDataTable2"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 3,
+        "idRef": "ReadRangeConnections`1_1",
+        "hash": "ReadRangeConnections`1_1|DataTable|bvbkoe7M5Hw6d9vcPcjBo9tcLc9WnKZRMzvS0MoOhDk",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Column A",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Column A",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Column B",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Column B",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Column C",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Column C",
+            "category": "Simplified"
+          }
+        ],
+        "rowExtensionProperties": [
+          {
+            "columnName": "WorksheetsRowIndex",
+            "dataType": "System.Int32, System.Private.CoreLib",
+            "descriptionKey": "General_RowExtensions_Property_WorksheetsRowIndex_Description",
+            "category": "Simplified"
+          }
+        ],
+        "nestedRowExtensionProperties": [
+          {
+            "parentColumnName": "Column A",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Column A Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Column A",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Column A ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Column B",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Column B Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Column B",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Column B ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Column C",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Column C Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Column C",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Column C ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          }
+        ],
+        "resourceManager": {
+          "resourceManagerName": "UiPath.MicrosoftOffice365.Properties.Resources",
+          "resourceManagerAssemblyName": "UiPath.MicrosoftOffice365"
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable3",
+        "hash": "ReadRangeConnections`1_1|DataTable|KCRGEXYZ8HHPEVICgVd4PKzJYZTwSE06czqxIbaw|kTpLYz4sNoey8Tk2EUQH8fS98LWuj9UMSbl2aNSKE4|dpA8m66ruZrdVrm6TDByraKP8l0W6FcqcvXEux5QU",
+        "assemblyName": "Studio.Generated.TypedDataTable3"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 4,
+        "idRef": "ReadRangeConnections`1_1",
+        "hash": "ReadRangeConnections`1_1|DataTable|T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [],
+        "rowExtensionProperties": [
+          {
+            "columnName": "WorksheetsRowIndex",
+            "dataType": "System.Int32, System.Private.CoreLib",
+            "descriptionKey": "General_RowExtensions_Property_WorksheetsRowIndex_Description",
+            "category": "Simplified"
+          }
+        ],
+        "nestedRowExtensionProperties": [],
+        "resourceManager": {
+          "resourceManagerName": "UiPath.MicrosoftOffice365.Properties.Resources",
+          "resourceManagerAssemblyName": "UiPath.MicrosoftOffice365"
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable4",
+        "hash": "ReadRangeConnections`1_1|DataTable|T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU|kTpLYz4sNoey8Tk2EUQH8fS98LWuj9UMSbl2aNSKE4|dpA8m66ruZrdVrm6TDByraKP8l0W6FcqcvXEux5QU",
+        "assemblyName": "Studio.Generated.TypedDataTable4"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 5,
+        "idRef": "ReadRangeConnections`1_1",
+        "hash": "ReadRangeConnections`1_1|DataTable|bUJz8ult2py9NiKSde8MZswD9oRWRjE8On790SaVk",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "TO",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "TO",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "CC",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "CC",
+            "category": "Simplified"
+          },
+          {
+            "columnName": "Active",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Active",
+            "category": "Simplified"
+          }
+        ],
+        "rowExtensionProperties": [
+          {
+            "columnName": "WorksheetsRowIndex",
+            "dataType": "System.Int32, System.Private.CoreLib",
+            "descriptionKey": "General_RowExtensions_Property_WorksheetsRowIndex_Description",
+            "category": "Simplified"
+          }
+        ],
+        "nestedRowExtensionProperties": [
+          {
+            "parentColumnName": "TO",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "TO Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "TO",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "TO ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "CC",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "CC Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "CC",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "CC ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          },
+          {
+            "parentColumnName": "Active",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Active Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Active",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Active ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          }
+        ],
+        "resourceManager": {
+          "resourceManagerName": "UiPath.MicrosoftOffice365.Properties.Resources",
+          "resourceManagerAssemblyName": "UiPath.MicrosoftOffice365"
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable5",
+        "hash": "ReadRangeConnections`1_1|DataTable|yNXSSUQAQVNQYuuV6EiTRK4vKAELaoqB5hqUOvVw|kTpLYz4sNoey8Tk2EUQH8fS98LWuj9UMSbl2aNSKE4|dpA8m66ruZrdVrm6TDByraKP8l0W6FcqcvXEux5QU",
+        "assemblyName": "Studio.Generated.TypedDataTable5"
+      }
+    }
+  ]
+}

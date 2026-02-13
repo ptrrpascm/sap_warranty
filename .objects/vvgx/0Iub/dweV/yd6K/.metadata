@@ -1,0 +1,13 @@
+﻿{
+  "Name": "saplogon.exe SAP Logon …",
+  "Type": "Element",
+  "Id": "yd6K1T69lkSqex7X_RAi-g",
+  "Reference": "sy1sJIwqUUS3hIckUH9CAA/yd6K1T69lkSqex7X_RAi-g",
+  "ParentRef": "sy1sJIwqUUS3hIckUH9CAA/dweV-efKa0CqxX5X00e8Ew",
+  "Created": "2026-01-22T01:33:18.3895281Z",
+  "Updated": "2026-01-22T01:33:18.3895281Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
